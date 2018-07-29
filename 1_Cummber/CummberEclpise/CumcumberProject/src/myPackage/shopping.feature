@@ -1,3 +1,5 @@
+@Smoke @Sanity
+
 Feature: Adding items to basket
 
 Scenario: No item selected in basket
