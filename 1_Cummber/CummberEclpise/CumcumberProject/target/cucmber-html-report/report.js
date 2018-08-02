@@ -53,14 +53,14 @@ formatter.match({
   "location": "shoppingStep.I_start_the_application()"
 });
 formatter.result({
-  "duration": 919014704,
+  "duration": 1508655355,
   "status": "passed"
 });
 formatter.match({
   "location": "shoppingStep.I_should_see_a_selection_of_products()"
 });
 formatter.result({
-  "duration": 160256,
+  "duration": 204799,
   "status": "passed"
 });
 formatter.match({
@@ -73,7 +73,7 @@ formatter.match({
   "location": "shoppingStep.I_browse_without_buying_product(String)"
 });
 formatter.result({
-  "duration": 16544298,
+  "duration": 30758385,
   "status": "passed"
 });
 formatter.match({
@@ -86,7 +86,7 @@ formatter.match({
   "location": "shoppingStep.my_basket_should_be_empty(String)"
 });
 formatter.result({
-  "duration": 293377,
+  "duration": 734720,
   "status": "passed"
 });
 formatter.match({
@@ -99,7 +99,7 @@ formatter.match({
   "location": "shoppingStep.I_cannot_buy_an_item(String)"
 });
 formatter.result({
-  "duration": 279040,
+  "duration": 1007616,
   "status": "passed"
 });
 formatter.scenario({
@@ -139,14 +139,14 @@ formatter.match({
   "location": "shoppingStep.I_start_the_application()"
 });
 formatter.result({
-  "duration": 197632,
+  "duration": 37814764,
   "status": "passed"
 });
 formatter.match({
   "location": "shoppingStep.I_should_see_a_selection_of_products()"
 });
 formatter.result({
-  "duration": 146945,
+  "duration": 1828351,
   "status": "passed"
 });
 formatter.match({
@@ -159,7 +159,7 @@ formatter.match({
   "location": "shoppingStep.I_browse_without_buying_product(String)"
 });
 formatter.result({
-  "duration": 363521,
+  "duration": 618495,
   "status": "passed"
 });
 formatter.match({
@@ -172,7 +172,7 @@ formatter.match({
   "location": "shoppingStep.my_basket_should_be_empty(String)"
 });
 formatter.result({
-  "duration": 347649,
+  "duration": 792064,
   "status": "passed"
 });
 formatter.match({
@@ -185,7 +185,7 @@ formatter.match({
   "location": "shoppingStep.I_cannot_buy_an_item(String)"
 });
 formatter.result({
-  "duration": 243712,
+  "duration": 1567232,
   "status": "passed"
 });
 });
