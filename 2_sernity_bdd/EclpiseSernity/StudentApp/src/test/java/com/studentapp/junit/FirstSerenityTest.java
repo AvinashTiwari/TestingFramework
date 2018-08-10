@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 
 import io.restassured.RestAssured;
 import net.serenitybdd.junit.runners.SerenityRunner;
+import net.serenitybdd.rest.SerenityRest;
 
 @RunWith(SerenityRunner.class)
 public class FirstSerenityTest {
@@ -18,7 +19,7 @@ public class FirstSerenityTest {
 	
 	@Test
 	public void getAllStudent(){
-		RestAssured.given()
+		SerenityRest.given()
 		.when()
 		.get("/list")
 		.then()

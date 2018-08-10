@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.studentapp.junit.FirstSerenityTest" skipped="0" tests="1" time="15.64" timestamp="2018-08-221 09:00:48"><testcase classname="com.studentapp.junit.FirstSerenityTest" name="Get all student"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.studentapp.junit.FirstSerenityTest" skipped="0" tests="1" time="7.78" timestamp="2018-08-221 09:46:55"><testcase classname="com.studentapp.junit.FirstSerenityTest" name="Get all student"/></testsuite>
