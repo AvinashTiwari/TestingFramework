@@ -8,6 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
 
+import com.studentapp.cucumber.serenity.StudentSerenitySteps;
 import com.studentapp.model.StudentClass;
 import com.studentapp.testbase.TestBase;
 import com.studentapp.utils.TestUtil;
@@ -15,6 +16,7 @@ import com.studentapp.utils.TestUtil;
 import io.restassured.http.ContentType;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
+import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.annotations.Title;
 
 import static org.hamcrest.Matchers.*;
@@ -30,33 +32,22 @@ public class StudentCRUDTest extends TestBase {
 	static String programme = "ComputerScience";
 	static String email =  TestUtil.getRandomValue()+"abc@12376778.com";
 	static int studentId ;
+	
+	@Steps
+	StudentSerenitySteps studentSerenitySteps;
+	
 	@Title("This test Will Create New Student")
 	@Test
 	public void test001(){
 		
-		ArrayList<String> course = new ArrayList<String>();
-		course.add("Java");
-		course.add("C++");
+
+		ArrayList<String> courses = new ArrayList<String>();
+		courses.add("Java");
+		courses.add("C++");
 		
-		
-		StudentClass student = new StudentClass();
-		student.setFirstName(firstName);
-		student.setLastName(lastName);
-		student.setProgramme(programme);
-		student.setEmail(email);
-		student.setCourses(course);
-		
-		SerenityRest.rest().given()
-		.contentType(ContentType.JSON)
-		.log()
-		.all()
-		.when()
-		.body(student)
-		.post()
-		.then()
-		.log()
-		.all()
+		studentSerenitySteps.createStudent(firstName, lastName, email, programme, courses)
 		.statusCode(201);
+		
 	}
 	
 	
