@@ -13,8 +13,10 @@ import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.annotations.Title;
+import net.thucydides.junit.annotations.Concurrent;
 import net.thucydides.junit.annotations.UseTestDataFrom;
 
+@Concurrent(threads="4x")
 @UseTestDataFrom("testdata/studentinfo.csv")
 @RunWith(SerenityParameterizedRunner.class)
 public class CreateStudentDataDrivenTest extends TestBase {
