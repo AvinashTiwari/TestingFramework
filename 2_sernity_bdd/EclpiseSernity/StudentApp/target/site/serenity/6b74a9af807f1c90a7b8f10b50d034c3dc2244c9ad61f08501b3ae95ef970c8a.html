@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>This test Will Create New Student</title>
+    <title>Delete the Student and veify if student is deleted</title>
     <link rel="shortcut icon" href="favicon.ico">
 
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -42,7 +42,7 @@
 
             > <a href="bcde74b8f71aa1e1064864b40a8e4eae39d694f3bc5fde11302efa2214839de8.html">Studentinfo</a>
             > <a href="5b02fbbc41e46dc7e067c3ab5d31238ef55724313cd489a1dc309bdc206568ee.html">Student CRUD Test</a>
-            > This test Will Create New Student
+            > Delete the Student and veify if student is deleted
         </span>
         </div>
         <div class="rightbg"></div>
@@ -66,7 +66,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-08-2018 22:11</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-08-2018 23:00</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -109,7 +109,7 @@
                             <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
                                     <span class="success-color">
-                                    This Test Will Create New Student
+                                    Delete The Student And Veify If Student Is Deleted
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -150,7 +150,7 @@
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="top-level-step">POST http://localhost:8081/student</span>
+                            <span class="top-level-step">DELETE http://localhost:8081/student/109</span>
 
                                 <span class="rest-query">
                 <span>
@@ -169,22 +169,83 @@
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                POST http://localhost:8081/student
+                                DELETE http://localhost:8081/student/109
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <p>Status code: 201</p>
-                                    <p>Content Type: application/json</p>
+                                    <p>Status code: 204</p>
+                                    <p>Content Type: null</p>
                                     <h5>Request Headers</h5>
-                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <pre>Accept=*/*</pre>
                                     <h5>Content Body</h5>
-                                    <pre>{<br>    &quot;id&quot;: 0,<br>    &quot;firstName&quot;: &quot;8592 -Avinash&quot;,<br>    &quot;lastName&quot;: &quot;8363  -Tiwari&quot;,<br>    &quot;email&quot;: &quot;6951abc@12376778.com&quot;,<br>    &quot;programme&quot;: &quot;ComputerScience&quot;,<br>    &quot;courses&quot;: [<br>        &quot;Java&quot;,<br>        &quot;C++&quot;<br>    ]<br>}</pre>
+                                    <pre></pre>
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Location: http://localhost:8081/student/0<br>Content-Type: application/json;charset=UTF-8<br>Transfer-Encoding: chunked<br>Date: Sun, 12 Aug 2018 04:12:02 GMT</pre>
+                                    <pre>Date: Sun, 12 Aug 2018 05:00:15 GMT</pre>
                                 <h5>Response Body</h5>
-                                <pre>{<br>    &quot;msg&quot;: &quot;Student added&quot;<br>}</pre>
+                                <pre></pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">GET http://localhost:8081/student/109</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-2">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-2" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET http://localhost:8081/student/109
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 404</p>
+                                    <p>Content Type: null</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Content-Type: application/json;charset=UTF-8<br>Transfer-Encoding: chunked<br>Date: Sun, 12 Aug 2018 05:00:15 GMT</pre>
+                                <h5>Response Body</h5>
+                                <pre>{<br>    &quot;error&quot;: &quot;Not Found!&quot;<br>}</pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
                             </div>
@@ -206,7 +267,7 @@
                 <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>33.02s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>3.6s</em></span></td>
                 </tr>
 
             </table>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.studentapp.junit.studentinfo.FirstSerenityTest" time="5.936" tests="7" errors="2" skipped="3" failures="1">
+<testsuite name="com.studentapp.junit.studentinfo.FirstSerenityTest" time="9.624" tests="7" errors="2" skipped="3" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7768796713070601883.tmp"/>
+    <property name="classworlds.conf" value="K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf572283435960002.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_181/bin/client;C:/Program Files (x86)/Java/jre1.8.0_181/bin;C:/Program Files (x86)/Java/jre1.8.0_181/lib/i386;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;GRAPHVIZ_DOT;&quot;C:\Progra~1\Java\jdk1.8.0_45\bin&quot;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Calibre2\;exit;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Utilities 1.6\;&quot;C:\Users\avinash.t\AppData\Local\Android\sdk\platform-tools&quot;;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Cloud Foundry;&quot;F:\Javascript_Tech\Eclipse_Java_EE\Gradle\gradle-3.4.1\bin&quot;;C:\Program Files\Microsoft Network Monitor 3\;C:\Users\avinash.t\Anaconda3\Scripts;&quot;C:\Progra~1\Java\jdk1.8.0_101&quot;\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Yarn\bin;C:\Program Files\nodejs\;C:\Program Files\Git LFS;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;&quot;C:\Program Files (x86)\Geth&quot;;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\OpenCv3.2.0\build\install\x64\vc14\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\MinGW\bin;C:\swigwin-3.0.12;C:\Users\avinash.t\.windows-build-tools\python27\;C:\Users\avinash.t\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Users\avinash.t\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\avinash.t\AppData\Roaming\npm\node_modules\.bin;&quot;C:\Progra~1\Java\jdk1.8.0_45\bin&quot;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Calibre2\;exit;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Utilities 1.6\;&quot;C:\Users\avinash.t\AppData\Local\Android\sdk\platform-tools&quot;;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Cloud Foundry;&quot;F:\Javascript_Tech\Eclipse_Java_EE\Gradle\gradle-3.4.1\bin&quot;;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft Network Monitor 3\;C:\Users\avinash.t\Anaconda3\Scripts;&quot;C:\Progra~1\Java\jdk1.8.0_101&quot;\bin;C:\strawberry\perl\bin;C:\Yarn\bin;C:\Program Files\nodejs\;C:\Program Files\Git LFS;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Phyton;C:\jdk\bin;c:\spark\bin;C:\Users\avinash.t\AppData\Local\Yarn\bin;C:\Users\avinash.t\AppData\Roaming\npm;F:\Javascript_Tech\Maven\apache-maven-3.5.4\bin;C:\OpenCv3.2.0\build\install\x64\vc14\bin;C:\MinGW\bin;C:\swigwin-3.0.12;L:\EclpiseProjectSpark\STS\sts36\sts-bundle\sts-3.8.4.RELEASE;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,24 +62,24 @@
   </properties>
   <testcase name="IsThisManulTest" classname="com.studentapp.junit.studentinfo.FirstSerenityTest" time="0">
     <skipped/>
-    <system-err><![CDATA[50936 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Is this manul test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.json7727dfbd-687a-4e8c-b9bd-c8afddd494fa)
-50936 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Filedoesnot exist to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.json6cc62f48-125e-424b-ad9f-dbe89cb80b88)
-50938 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get all student to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.json45945708-6f09-4513-bfa3-3e2ee713d3e4)
-50938 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test will get information student from Student App to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.jsonc966c43c-8473-4aec-bb58-0e74e9b36220)
-51088 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This is a skipped test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.json3758937e-8911-4cb6-b381-970476d2d178)
-51112 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test cause error to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.jsonfae93e3a-320e-4fd9-a1cf-08002e8be57c)
-51117 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This is failing test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.json07a8abf7-680f-45b7-a975-2d25f48bd3c6)
-51120 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This pending test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.json5028da83-518a-4266-8043-f14b86bfda37)
-56804 [pool-1-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:getAllStudent in cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.html in directory target\site\serenity  
-56804 [pool-1-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:test01 in c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.html in directory target\site\serenity  
-59586 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:filedoesnotExist in 44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.html in directory target\site\serenity  
-62053 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:IsThisManulTest in 4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.html in directory target\site\serenity  
-62090 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:ThisIsASkippedTest in 41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.html in directory target\site\serenity  
-62091 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:ThisTestCauseError in 776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.html in directory target\site\serenity  
-62117 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:thisIsFailingTest in a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.html in directory target\site\serenity  
-62119 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:thisPendingTest in 4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.html in directory target\site\serenity  
-62214 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: First serenity test
-63811 [main] INFO net.serenitybdd.core.Serenity - 
+    <system-err><![CDATA[72195 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test will get information student from Student App to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.json73db5d37-98d3-44b9-bea9-7c576791ef58)
+72195 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get all student to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.json3e109b1d-eff1-434a-ae2e-7f75e63b0e60)
+72196 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Filedoesnot exist to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.jsonb745ca9c-64e1-40f8-9aef-1bf01ccb5a31)
+72197 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Is this manul test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.json414b5bb5-3c0f-4a89-a82c-b2566cf2cde2)
+72299 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This is a skipped test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.json0cf4836d-65d1-4bae-9934-28965ce8e96e)
+72330 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test cause error to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.json99e52335-8ade-4981-a827-8312627af93b)
+72348 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This is failing test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.json0f07ce6b-2c9b-4ac0-8c0f-cf7f050358d9)
+72383 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This pending test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.json41968e59-2140-487d-ac88-4fbfd06c19a2)
+79886 [pool-1-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:test01 in c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.html in directory target\site\serenity  
+79913 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:getAllStudent in cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.html in directory target\site\serenity  
+82587 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:ThisIsASkippedTest in 41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.html in directory target\site\serenity  
+82620 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:ThisTestCauseError in 776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.html in directory target\site\serenity  
+82766 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:thisIsFailingTest in a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.html in directory target\site\serenity  
+82901 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:thisPendingTest in 4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.html in directory target\site\serenity  
+83175 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:IsThisManulTest in 4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.html in directory target\site\serenity  
+88211 [pool-1-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:filedoesnotExist in 44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.html in directory target\site\serenity  
+88406 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: First serenity test
+91301 [main] INFO net.serenitybdd.core.Serenity - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -89,10 +89,10 @@
 
 TEST STARTED: IsThisManulTest
 -------------------------------------------------------------------
-63811 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 9
-63812 [main] INFO net.serenitybdd.core.Serenity - TEST MANUAL
-63812 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-63813 [main] INFO net.serenitybdd.core.Serenity - 
+91301 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 9
+91302 [main] INFO net.serenitybdd.core.Serenity - TEST MANUAL
+91303 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+91305 [main] INFO net.serenitybdd.core.Serenity - 
           __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
  _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
 (_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
@@ -104,8 +104,8 @@ TEST PENDING: Is this manul test
 ---------------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="getAllStudent" classname="com.studentapp.junit.studentinfo.FirstSerenityTest" time="0.899"/>
-  <testcase name="filedoesnotExist" classname="com.studentapp.junit.studentinfo.FirstSerenityTest" time="1.659">
+  <testcase name="getAllStudent" classname="com.studentapp.junit.studentinfo.FirstSerenityTest" time="1.122"/>
+  <testcase name="filedoesnotExist" classname="com.studentapp.junit.studentinfo.FirstSerenityTest" time="2.712">
     <error message="F:\ss.as (The system cannot find the file specified)" type="java.io.FileNotFoundException"><![CDATA[java.io.FileNotFoundException: F:\ss.as (The system cannot find the file specified)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -113,7 +113,7 @@ TEST PENDING: Is this manul test
 	at java.io.FileReader.<init>(FileReader.java:72)
 	at com.studentapp.junit.studentinfo.FirstSerenityTest.filedoesnotExist(FirstSerenityTest.java:71)
 ]]></error>
-    <system-err><![CDATA[65650 [main] INFO net.serenitybdd.core.Serenity - 
+    <system-err><![CDATA[94403 [main] INFO net.serenitybdd.core.Serenity - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -123,7 +123,7 @@ TEST PENDING: Is this manul test
 
 TEST PASSED: Get all student
 ----------------------------------------------------------------------------
-67309 [main] INFO net.serenitybdd.core.Serenity - 
+97107 [main] INFO net.serenitybdd.core.Serenity - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -133,12 +133,12 @@ TEST PASSED: Get all student
 
 TEST STARTED: filedoesnotExist
 -------------------------------------------------------------------
-67309 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 11
+97108 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 11
 ]]></system-err>
   </testcase>
   <testcase name="ThisIsASkippedTest" classname="com.studentapp.junit.studentinfo.FirstSerenityTest" time="0">
     <skipped/>
-    <system-err><![CDATA[67327 [main] ERROR net.serenitybdd.core.Serenity - 
+    <system-err><![CDATA[97156 [main] ERROR net.serenitybdd.core.Serenity - 
            __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
   _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
  (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
@@ -148,8 +148,8 @@ TEST STARTED: filedoesnotExist
 
 TEST COMPROMISED: Filedoesnot exist
 -------------------------------------
-67327 [main] ERROR net.serenitybdd.core.Serenity - F:\ss.as (The system cannot find the file specified)
-69910 [main] INFO net.serenitybdd.core.Serenity - 
+97156 [main] ERROR net.serenitybdd.core.Serenity - F:\ss.as (The system cannot find the file specified)
+99626 [main] INFO net.serenitybdd.core.Serenity - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -159,9 +159,9 @@ TEST COMPROMISED: Filedoesnot exist
 
 TEST STARTED: ThisIsASkippedTest
 -------------------------------------------------------------------
-69910 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 12
-69910 [main] INFO net.serenitybdd.core.Serenity - TEST IGNORED
-69912 [main] INFO net.serenitybdd.core.Serenity - 
+99626 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 12
+99626 [main] INFO net.serenitybdd.core.Serenity - TEST IGNORED
+99628 [main] INFO net.serenitybdd.core.Serenity - 
             __  _____ _____ ____ _____   ____  _  _____ ____  ____  _____ ____  
   _        / / |_   _| ____/ ___|_   _| / ___|| |/ /_ _|  _ \|  _ \| ____|  _ \ 
  (_)_____ / /    | | |  _| \___ \ | |   \___ \| ' / | || |_) | |_) |  _| | | | |
@@ -173,11 +173,11 @@ TEST SKIPPED: This is a skipped test
 ---------------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="ThisTestCauseError" classname="com.studentapp.junit.studentinfo.FirstSerenityTest" time="1.63">
+  <testcase name="ThisTestCauseError" classname="com.studentapp.junit.studentinfo.FirstSerenityTest" time="2.685">
     <error message="/ by zero" type="java.lang.ArithmeticException">java.lang.ArithmeticException: / by zero
 	at com.studentapp.junit.studentinfo.FirstSerenityTest.ThisTestCauseError(FirstSerenityTest.java:64)
 </error>
-    <system-err><![CDATA[71535 [main] INFO net.serenitybdd.core.Serenity - 
+    <system-err><![CDATA[102312 [main] INFO net.serenitybdd.core.Serenity - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -187,10 +187,10 @@ TEST SKIPPED: This is a skipped test
 
 TEST STARTED: ThisTestCauseError
 -------------------------------------------------------------------
-71535 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 13
+102313 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 13
 ]]></system-err>
   </testcase>
-  <testcase name="thisIsFailingTest" classname="com.studentapp.junit.studentinfo.FirstSerenityTest" time="1.748">
+  <testcase name="thisIsFailingTest" classname="com.studentapp.junit.studentinfo.FirstSerenityTest" time="3.105">
     <failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <500> but was <200>.
 
@@ -221,7 +221,7 @@ Expected status code <500> but was <200>.
     <system-out><![CDATA[HTTP/1.1 200 
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Sun, 12 Aug 2018 02:21:33 GMT
+Date: Sun, 12 Aug 2018 04:59:52 GMT
 
 [
     {
@@ -1435,10 +1435,87 @@ Date: Sun, 12 Aug 2018 02:21:33 GMT
             "Engineering Analysis I",
             "Calculus & Linear Algebra I "
         ]
+    },
+    {
+        "id": 101,
+        "firstName": "Avinash",
+        "lastName": "Tiwari",
+        "email": "abc@12376778.com",
+        "programme": "ComputerScience",
+        "courses": [
+            "Java",
+            "C++"
+        ]
+    },
+    {
+        "id": 102,
+        "firstName": "8592 -Avinash",
+        "lastName": "8363  -Tiwari",
+        "email": "6951abc@12376778.com",
+        "programme": "ComputerScience",
+        "courses": [
+            "Java",
+            "C++"
+        ]
+    },
+    {
+        "id": 103,
+        "firstName": "3828 -Avinash",
+        "lastName": "8056  -Tiwari",
+        "email": "453abc@12376778.com",
+        "programme": "ComputerScience",
+        "courses": [
+            "Java",
+            "C++"
+        ]
+    },
+    {
+        "id": 104,
+        "firstName": "5178 -Avinash",
+        "lastName": "6606  -Tiwari",
+        "email": "7037abc@12376778.com",
+        "programme": "ComputerScience",
+        "courses": [
+            "Java",
+            "C++"
+        ]
+    },
+    {
+        "id": 105,
+        "firstName": "2854 -Avinash",
+        "lastName": "9715  -Tiwari",
+        "email": "8017abc@12376778.com",
+        "programme": "ComputerScience",
+        "courses": [
+            "Java",
+            "C++"
+        ]
+    },
+    {
+        "id": 106,
+        "firstName": "3898 -Avinash_updated",
+        "lastName": "5094  -Tiwari",
+        "email": "3370abc@12376778.com",
+        "programme": "ComputerScience",
+        "courses": [
+            "Java",
+            "C++"
+        ]
+    },
+    {
+        "id": 107,
+        "firstName": "1371 -Avinash_updated",
+        "lastName": "4378  -Tiwari",
+        "email": "5682abc@12376778.com",
+        "programme": "ComputerScience",
+        "courses": [
+            "Java",
+            "C++"
+        ]
     }
 ]
 ]]></system-out>
-    <system-err><![CDATA[71560 [main] ERROR net.serenitybdd.core.Serenity - 
+    <system-err><![CDATA[102335 [main] ERROR net.serenitybdd.core.Serenity - 
            __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
   _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
  (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
@@ -1448,8 +1525,8 @@ Date: Sun, 12 Aug 2018 02:21:33 GMT
 
 TEST FAILED WITH ERROR: This test cause error
 ---------------------------------------------------------------------
-71562 [main] ERROR net.serenitybdd.core.Serenity - / by zero
-73111 [main] INFO net.serenitybdd.core.Serenity - 
+102336 [main] ERROR net.serenitybdd.core.Serenity - / by zero
+105148 [main] INFO net.serenitybdd.core.Serenity - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -1459,12 +1536,12 @@ TEST FAILED WITH ERROR: This test cause error
 
 TEST STARTED: thisIsFailingTest
 -------------------------------------------------------------------
-73111 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 14
+105148 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 14
 ]]></system-err>
   </testcase>
   <testcase name="thisPendingTest" classname="com.studentapp.junit.studentinfo.FirstSerenityTest" time="0">
     <skipped/>
-    <system-err><![CDATA[73322 [main] ERROR net.serenitybdd.core.Serenity - 
+    <system-err><![CDATA[105446 [main] ERROR net.serenitybdd.core.Serenity - 
            __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
   _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
  (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
@@ -1474,8 +1551,8 @@ TEST STARTED: thisIsFailingTest
 
 TEST FAILED: This is failing test
 --------------------------------------------------------------------------
-73323 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <500> but was <200>.
-74746 [main] INFO net.serenitybdd.core.Serenity - 
+105447 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <500> but was <200>.
+108102 [main] INFO net.serenitybdd.core.Serenity - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -1485,9 +1562,9 @@ TEST FAILED: This is failing test
 
 TEST STARTED: thisPendingTest
 -------------------------------------------------------------------
-74746 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 15
-74746 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-74747 [main] INFO net.serenitybdd.core.Serenity - 
+108108 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 15
+108109 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+108112 [main] INFO net.serenitybdd.core.Serenity - 
           __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
  _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
 (_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 

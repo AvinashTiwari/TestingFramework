@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Student CRUD test","Delete the Student and veify if student is deleted","SUCCESS","2018-08-11T23:00:12.559-06:00","0.0","3.6"
+"First serenity test","Get all student","SUCCESS","2018-08-11T22:59:38.138-06:00","0.0","3.1"
+"Student CRUD test","Student was added to the  applciation","SUCCESS","2018-08-11T23:00:01.979-06:00","0.0","7.97"
+"Student CRUD test","This test Will Create New Student","SUCCESS","2018-08-11T22:59:55.302-06:00","0.0","6.67"
+"Student CRUD test","Update the User Information and Verify updated information","SUCCESS","2018-08-11T23:00:09.956-06:00","0.0","2.6"
