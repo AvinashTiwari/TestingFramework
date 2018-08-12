@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.studentapp.junit.studentinfo.CreateStudentDataDrivenTest" time="6.299" tests="3" errors="2" skipped="0" failures="1">
+<testsuite name="com.studentapp.junit.studentinfo.CreateStudentDataDrivenTest" time="1.927" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3543087435032547235.tmp"/>
+    <property name="classworlds.conf" value="K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7040641229409293144.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_181/bin/client;C:/Program Files (x86)/Java/jre1.8.0_181/bin;C:/Program Files (x86)/Java/jre1.8.0_181/lib/i386;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;GRAPHVIZ_DOT;&quot;C:\Progra~1\Java\jdk1.8.0_45\bin&quot;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Calibre2\;exit;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Utilities 1.6\;&quot;C:\Users\avinash.t\AppData\Local\Android\sdk\platform-tools&quot;;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Cloud Foundry;&quot;F:\Javascript_Tech\Eclipse_Java_EE\Gradle\gradle-3.4.1\bin&quot;;C:\Program Files\Microsoft Network Monitor 3\;C:\Users\avinash.t\Anaconda3\Scripts;&quot;C:\Progra~1\Java\jdk1.8.0_101&quot;\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Yarn\bin;C:\Program Files\nodejs\;C:\Program Files\Git LFS;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;&quot;C:\Program Files (x86)\Geth&quot;;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\OpenCv3.2.0\build\install\x64\vc14\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\MinGW\bin;C:\swigwin-3.0.12;C:\Users\avinash.t\.windows-build-tools\python27\;C:\Users\avinash.t\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Users\avinash.t\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\avinash.t\AppData\Roaming\npm\node_modules\.bin;&quot;C:\Progra~1\Java\jdk1.8.0_45\bin&quot;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Calibre2\;exit;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Utilities 1.6\;&quot;C:\Users\avinash.t\AppData\Local\Android\sdk\platform-tools&quot;;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Cloud Foundry;&quot;F:\Javascript_Tech\Eclipse_Java_EE\Gradle\gradle-3.4.1\bin&quot;;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft Network Monitor 3\;C:\Users\avinash.t\Anaconda3\Scripts;&quot;C:\Progra~1\Java\jdk1.8.0_101&quot;\bin;C:\strawberry\perl\bin;C:\Yarn\bin;C:\Program Files\nodejs\;C:\Program Files\Git LFS;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Phyton;C:\jdk\bin;c:\spark\bin;C:\Users\avinash.t\AppData\Local\Yarn\bin;C:\Users\avinash.t\AppData\Roaming\npm;F:\Javascript_Tech\Maven\apache-maven-3.5.4\bin;C:\OpenCv3.2.0\build\install\x64\vc14\bin;C:\MinGW\bin;C:\swigwin-3.0.12;L:\EclpiseProjectSpark\STS\sts36\sts-bundle\sts-3.8.4.RELEASE;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,133 +60,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="Test mechanism" classname="Test mechanism" time="0">
-    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at net.thucydides.core.model.DataTable$RowValueAccessor.toStringMap(DataTable.java:298)
-	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testStarted(ParameterizedJUnitStepListener.java:38)
-	at org.junit.runner.notification.SynchronizedRunListener.testStarted(SynchronizedRunListener.java:49)
-	at org.junit.runner.notification.RunNotifier$3.notifyListener(RunNotifier.java:121)
-	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
-	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
-	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
-	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
-	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at net.serenitybdd.junit.runners.SerenityParameterizedRunner.run(SerenityParameterizedRunner.java:184)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-</error>
-    <system-err><![CDATA[53914 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Is this manul test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.json0fede5d8-753e-4c2b-a220-45194105b9f6)
-53915 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Filedoesnot exist to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.json040fb309-372d-42c3-9eb0-833217ebc484)
-53915 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test will get information student from Student App to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.json53c9a25c-7ae5-43fa-a06e-73462c87174d)
-54011 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This is a skipped test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.jsonbdfe2a58-611a-43b9-9ee5-39c1c529c5a3)
-54015 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test cause error to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.json47206b03-bc43-4470-ad23-962cd7494d53)
-54023 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get all student to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.jsonba57f95e-4de9-4bb7-9b35-084ac717d17b)
-54023 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This is failing test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.json782d0ccb-15f7-4263-9d19-e0857d1a84ea)
-54048 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This pending test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.jsonb5811459-a0c7-4707-9e3d-6a7fd7ee878a)
-62058 [pool-1-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:test01 in c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.html in directory target\site\serenity  
-62058 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:IsThisManulTest in 4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.html in directory target\site\serenity  
-65509 [pool-1-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:filedoesnotExist in 44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.html in directory target\site\serenity  
-67847 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:ThisIsASkippedTest in 41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.html in directory target\site\serenity  
-67873 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:ThisTestCauseError in 776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.html in directory target\site\serenity  
-67884 [pool-1-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:thisIsFailingTest in a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.html in directory target\site\serenity  
-67911 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:thisPendingTest in 4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.html in directory target\site\serenity  
-68622 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:getAllStudent in cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.html in directory target\site\serenity  
-68854 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create student data driven test
-71742 [main] INFO net.serenitybdd.core.Serenity - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: createMutipleStudent[0]
--------------------------------------------------------------------
-71742 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 9
-]]></system-err>
-  </testcase>
-  <testcase name="createMutipleStudent[0]" classname="com.studentapp.junit.studentinfo.CreateStudentDataDrivenTest" time="1.897">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <201> but was <500>.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.studentapp.junit.studentinfo.CreateStudentDataDrivenTest.createMutipleStudent(CreateStudentDataDrivenTest.java:155)
-]]></failure>
-  </testcase>
-  <testcase name="com.studentapp.junit.studentinfo.CreateStudentDataDrivenTest" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="4.402">
-    <error message="at index 5" type="java.lang.NullPointerException">java.lang.NullPointerException: at index 5
-	at com.google.common.collect.ObjectArrays.checkElementNotNull(ObjectArrays.java:236)
-	at com.google.common.collect.ObjectArrays.checkElementsNotNull(ObjectArrays.java:226)
-	at com.google.common.collect.ObjectArrays.checkElementsNotNull(ObjectArrays.java:220)
-	at com.google.common.collect.ImmutableList.construct(ImmutableList.java:347)
-	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:257)
-	at net.thucydides.core.model.DataTable.addRows(DataTable.java:127)
-	at net.thucydides.core.model.TestOutcome.addDataFrom(TestOutcome.java:694)
-	at net.serenitybdd.junit.runners.ParameterizedTestsOutcomeAggregator.aggregatedScenarioOutcomes(ParameterizedTestsOutcomeAggregator.java:51)
-	at net.serenitybdd.junit.runners.ParameterizedTestsOutcomeAggregator.aggregateTestOutcomesByTestMethods(ParameterizedTestsOutcomeAggregator.java:32)
-	at net.serenitybdd.junit.runners.SerenityParameterizedRunner.generateReports(SerenityParameterizedRunner.java:192)
-	at net.serenitybdd.junit.runners.SerenityParameterizedRunner.run(SerenityParameterizedRunner.java:187)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
-</error>
-    <system-err><![CDATA[75176 [main] ERROR net.serenitybdd.core.Serenity - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
-
-TEST FAILED: Data Driven test for Adding multpile Student
---------------------------------------------------------------------------
-75181 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <201> but was <500>.
-]]></system-err>
-  </testcase>
+  <testcase name="createMutipleStudent[0]" classname="com.studentapp.junit.studentinfo.CreateStudentDataDrivenTest" time="1.927"/>
 </testsuite>
