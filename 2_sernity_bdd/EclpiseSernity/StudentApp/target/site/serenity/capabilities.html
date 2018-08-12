@@ -36,11 +36,11 @@
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
                 ['Passing', 1],
-                ['Pending', 0],
-                ['Ignored', 0],
-                ['Failing', 0],
-                ['Errors',  0],
-                ['Compromised',  0],
+                ['Pending', 2],
+                ['Ignored', 1],
+                ['Failing', 1],
+                ['Errors',  1],
+                ['Compromised',  1],
                 ['Untested',  0],
             ]
         ], {
@@ -69,11 +69,11 @@
             },
             series: [
                 {label: '1 requirements tested successfully'},
-                {label: '0 requirements pending'},
-                {label: '0} requirements skipped'},
-                {label: '0} requirements with failures'},
-                {label: '0} requirements with errors'},
-                {label: '0} requirements compromised'},
+                {label: '2 requirements pending'},
+                {label: '1} requirements skipped'},
+                {label: '1} requirements with failures'},
+                {label: '1} requirements with errors'},
+                {label: '1} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
         });
@@ -160,7 +160,7 @@
             <a href="#"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-08-2018 22:41</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-08-2018 19:43</span>
     <br style="clear:left"/>
 </div>
 
@@ -192,11 +192,11 @@
 
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
+                                    <td>7</td>
                                     <td>1</td>
+                                    <td>3</td>
+                                    <td>2</td>
                                     <td>1</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
                                     <td></td>
                                 </tr>
                                 </body>
@@ -223,31 +223,31 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>1</td>
-            <td>1 (100%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
+            <td>6</td>
+            <td>1 (17%)</td>
+            <td>3 (50%)</td>
+            <td>1 (17%)</td>
+            <td>1 (17%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Manual</td>
-            <td>0</td>
+            <td>1</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
-            <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>1</td>
-            <td>1 (100%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
+            <td>7</td>
+            <td>1 (14%)</td>
+            <td>3 (43%)</td>
+            <td>2 (29%)</td>
+            <td>1 (14%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">22 seconds</td>
+                <td colspan="5">24 seconds</td>
         </tr>
         </body>
     </table>
@@ -275,6 +275,27 @@
                         </thead>
                         <tbody>
 
+                            <tr class="test-COMPROMISED">
+                                <td><span class="summary-icon"><i class='fa fa-chain-broken compromised-icon ' title='COMPROMISED'></i></span>
+                                    
+                                    <span style="display:none">COMPROMISED</span></td>
+                                <td class="COMPROMISED-text">
+                                    <div class="ellipsis">
+
+                                        <a href="abad67154f4fe95af01bc8ff2369f7d74db2090fa6183d7cd4419acd830b56dc.html" class="ellipsis"
+                                           title="Filedoesnot exist F:\ss.as (The system cannot find the ...">
+                                            Filedoesnot exist
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="lightgreentext">0</td>
+
+
+                                <td class="lightgreentext">0.09</td>
+                            </tr>
+
                             <tr class="test-SUCCESS">
                                 <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
@@ -293,7 +314,112 @@
                                 <td class="lightgreentext">1</td>
 
 
-                                <td class="lightgreentext">21.98</td>
+                                <td class="lightgreentext">21.33</td>
+                            </tr>
+
+                            <tr class="test-PENDING">
+                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                                    <i class="fa fa-user manual" title="Manual test"></i>
+                                    <span style="display:none">PENDING</span></td>
+                                <td class="PENDING-text">
+                                    <div class="ellipsis">
+
+                                        <a href="872a8983f903110d540d8fa53ce279aa78ef5c1f9e875c4e8eb11b0297b4af7c.html" class="ellipsis"
+                                           title="Is this manul test ">
+                                            Is this manul test
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="lightgreentext">0</td>
+
+
+                                <td class="lightgreentext">1.81</td>
+                            </tr>
+
+                            <tr class="test-IGNORED">
+                                <td><span class="summary-icon"><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></span>
+                                    
+                                    <span style="display:none">IGNORED</span></td>
+                                <td class="IGNORED-text">
+                                    <div class="ellipsis">
+
+                                        <a href="f1b29e873f938a15f1532d52887a2972e2dd49bb9a3cb29bfaf7ea79157bc95c.html" class="ellipsis"
+                                           title="This is a skipped test ">
+                                            This is a skipped test
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="lightgreentext">0</td>
+
+
+                                <td class="lightgreentext">0.02</td>
+                            </tr>
+
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                                    
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
+                                    <div class="ellipsis">
+
+                                        <a href="ce51b9493cf743a1d8dee8ae60e5b288d06c2cd37e8ac08092455cd587986c26.html" class="ellipsis"
+                                           title="This is failing test 1 expectation failed. Expected status...">
+                                            This is failing test
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="lightgreentext">1</td>
+
+
+                                <td class="lightgreentext">0.45</td>
+                            </tr>
+
+                            <tr class="test-PENDING">
+                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                                    
+                                    <span style="display:none">PENDING</span></td>
+                                <td class="PENDING-text">
+                                    <div class="ellipsis">
+
+                                        <a href="a1f6c441933f7e1a8e4e2f577358472c9b410a2f1b7e07f59b558f2ee55a0c87.html" class="ellipsis"
+                                           title="This pending test ">
+                                            This pending test
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="lightgreentext">0</td>
+
+
+                                <td class="lightgreentext">0</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+
+                                        <a href="2b8e171df5e477c901bde61f14b360add14cfefbee9f43a76d79921b3f1077cc.html" class="ellipsis"
+                                           title="This test cause error / by zero">
+                                            This test cause error
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="lightgreentext">0</td>
+
+
+                                <td class="lightgreentext">0.04</td>
                             </tr>
                         </tbody>
                     </table>
