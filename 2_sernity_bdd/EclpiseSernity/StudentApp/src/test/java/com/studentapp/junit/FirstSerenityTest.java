@@ -27,5 +27,16 @@ public class FirstSerenityTest {
 		.all()
 		.statusCode(200);
 	}
+	
+	@Test
+	public void thisIsFailingTest(){
+		SerenityRest.given()
+		.when()
+		.get("/list")
+		.then()
+		.log()
+		.all()
+		.statusCode(200);
+	}
 
 }
