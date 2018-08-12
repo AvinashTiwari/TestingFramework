@@ -11,6 +11,7 @@ import org.junit.runners.MethodSorters;
 import com.studentapp.cucumber.serenity.StudentSerenitySteps;
 import com.studentapp.model.StudentClass;
 import com.studentapp.testbase.TestBase;
+import com.studentapp.utils.ReuseableSpecification;
 import com.studentapp.utils.TestUtil;
 
 import io.restassured.http.ContentType;
@@ -43,7 +44,8 @@ public class StudentCRUDTest extends TestBase {
 		courses.add("Java");
 		courses.add("C++");
 
-		studentSerenitySteps.createStudent(firstName, lastName, email, programme, courses).statusCode(201);
+		studentSerenitySteps.createStudent(firstName, lastName, email, programme, courses).statusCode(201)
+		.spec(ReuseableSpecification.getGenericResonseSpecification());
 
 	}
 
