@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.studentapp.junit.studentinfo.CreateStudentDataDrivenTest" time="35.469" tests="1" errors="0" skipped="0" failures="1">
+<testsuite name="com.studentapp.junit.studentinfo.CreateStudentDataDrivenTest" time="0.001" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4364502629279780038.tmp"/>
+    <property name="classworlds.conf" value="K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7017724644664510667.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_181/bin/client;C:/Program Files (x86)/Java/jre1.8.0_181/bin;C:/Program Files (x86)/Java/jre1.8.0_181/lib/i386;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;GRAPHVIZ_DOT;&quot;C:\Progra~1\Java\jdk1.8.0_45\bin&quot;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Calibre2\;exit;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Utilities 1.6\;&quot;C:\Users\avinash.t\AppData\Local\Android\sdk\platform-tools&quot;;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Cloud Foundry;&quot;F:\Javascript_Tech\Eclipse_Java_EE\Gradle\gradle-3.4.1\bin&quot;;C:\Program Files\Microsoft Network Monitor 3\;C:\Users\avinash.t\Anaconda3\Scripts;&quot;C:\Progra~1\Java\jdk1.8.0_101&quot;\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Yarn\bin;C:\Program Files\nodejs\;C:\Program Files\Git LFS;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;&quot;C:\Program Files (x86)\Geth&quot;;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\OpenCv3.2.0\build\install\x64\vc14\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\MinGW\bin;C:\swigwin-3.0.12;C:\Users\avinash.t\.windows-build-tools\python27\;C:\Users\avinash.t\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Users\avinash.t\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\avinash.t\AppData\Roaming\npm\node_modules\.bin;&quot;C:\Progra~1\Java\jdk1.8.0_45\bin&quot;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Calibre2\;exit;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Utilities 1.6\;&quot;C:\Users\avinash.t\AppData\Local\Android\sdk\platform-tools&quot;;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Cloud Foundry;&quot;F:\Javascript_Tech\Eclipse_Java_EE\Gradle\gradle-3.4.1\bin&quot;;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft Network Monitor 3\;C:\Users\avinash.t\Anaconda3\Scripts;&quot;C:\Progra~1\Java\jdk1.8.0_101&quot;\bin;C:\strawberry\perl\bin;C:\Yarn\bin;C:\Program Files\nodejs\;C:\Program Files\Git LFS;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Phyton;C:\jdk\bin;c:\spark\bin;C:\Users\avinash.t\AppData\Local\Yarn\bin;C:\Users\avinash.t\AppData\Roaming\npm;F:\Javascript_Tech\Maven\apache-maven-3.5.4\bin;C:\OpenCv3.2.0\build\install\x64\vc14\bin;C:\MinGW\bin;C:\swigwin-3.0.12;L:\EclpiseProjectSpark\STS\sts36\sts-bundle\sts-3.8.4.RELEASE;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -34,7 +34,6 @@
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
     <property name="os.version" value="6.3"/>
     <property name="user.home" value="C:\Users\avinash.t"/>
-    <property name="tags" value="studentfeature:NEGATIVE,studentfeature:SMOKE"/>
     <property name="user.timezone" value="America/Denver"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
@@ -44,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean verify -Dtags=studentfeature:NEGATIVE,studentfeature:SMOKE serenity:aggregate"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean verify serenity:aggregate"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,7 +60,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="createMutipleStudent[0]" classname="com.studentapp.junit.studentinfo.CreateStudentDataDrivenTest" time="35.469">
+  <testcase name="createMutipleStudent[0]" classname="com.studentapp.junit.studentinfo.CreateStudentDataDrivenTest" time="0.001">
     <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <500>.
 
@@ -72,14 +71,9 @@ Expected status code <201> but was <500>.
 	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
 	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
 	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -87,34 +81,31 @@ Expected status code <201> but was <500>.
 	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
 	at com.studentapp.junit.studentinfo.CreateStudentDataDrivenTest.createMutipleStudent(CreateStudentDataDrivenTest.java:157)
 ]]></failure>
-    <system-err><![CDATA[1109 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.compromised.on=java.io.FileNotFoundException
-1270 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.test.root=com.studentapp.junit
-1271 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=StudentApp
-4587 [main] INFO net.serenitybdd.core.Serenity - 
-
--------------------------------------------------------------------------------------
-     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
-    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
-   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
-    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
-.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
-|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
--------------------------------------------------------------------------------------
-
-9211 [CreateStudentDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create student data driven test
-13234 [CreateStudentDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - 
+    <system-err><![CDATA[121554 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Is this manul test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.jsonb5c1fcab-af43-4093-bbf7-2f6e7ff5f8cd)
+121556 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test will get information student from Student App to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.json699d3177-a8aa-4be7-92e6-caa0c45f0162)
+121557 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Filedoesnot exist to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.json04160509-d6f3-4f05-8b3d-edaf2bc74986)
+121559 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get all student to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.json4e652f1e-7800-4f93-be1a-d63c0a54870a)
+121587 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This is a skipped test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.json3a27dd7d-b6bb-4fa6-ba86-e7208cb46dc9)
+121591 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test cause error to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.json49cee74e-a4ae-42d1-8ed7-03e32a179ddb)
+121597 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This is failing test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.json4d057610-6385-4ff0-a68c-e63fb3cbfbd0)
+121598 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This pending test to file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.json (using temp file K:\TestingFrameWork\2_sernity_bdd\EclpiseSernity\StudentApp\target\site\serenity\4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.json8f2a37f6-1cca-442b-a552-fcfe8e0509b3)
+121626 [pool-1-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:IsThisManulTest in 4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.html in directory target\site\serenity  
+121647 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:test01 in c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.html in directory target\site\serenity  
+121649 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:getAllStudent in cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.html in directory target\site\serenity  
+121667 [pool-1-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:filedoesnotExist in 44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.html in directory target\site\serenity  
+121733 [pool-1-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:ThisIsASkippedTest in 41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.html in directory target\site\serenity  
+121764 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:ThisTestCauseError in 776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.html in directory target\site\serenity  
+121773 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:thisIsFailingTest in a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.html in directory target\site\serenity  
+121775 [pool-1-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Serenity id info:thisPendingTest in 4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.html in directory target\site\serenity  
+122029 [CreateStudentDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Create student data driven test
+124056 [CreateStudentDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -124,7 +115,7 @@ Expected status code <201> but was <500>.
 
 TEST STARTED: createMutipleStudent[0]
 -------------------------------------------------------------------
-13235 [CreateStudentDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+124057 [CreateStudentDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 9
 ]]></system-err>
   </testcase>
 </testsuite>

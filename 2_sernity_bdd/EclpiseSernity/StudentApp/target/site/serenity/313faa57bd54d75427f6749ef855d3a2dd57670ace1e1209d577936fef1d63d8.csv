@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Tag test","Provide 200 status code correct HttpMethd","SUCCESS","2018-08-12T19:00:34.598-06:00","0.0","2.92"
-"Tag test","Provide 400 status code incorrect Http Resource","SUCCESS","2018-08-12T19:00:25.140-06:00","0.0","9.45"
-"Tag test","Provide 400 status code incorrect Http Resource","SUCCESS","2018-08-12T19:00:25.140-06:00","0.0","9.45"
+"Testing different requests on the student application","Check if the student application can be accessed by users","SUCCESS","2018-08-12T21:37:40.617-06:00","0.0","36.6"
+"Tag test","Provide 200 status code correct HttpMethd","SUCCESS","2018-08-12T21:40:39.018-06:00","0.0","2.78"
+"Tag test","Provide 400 status code incorrect Http Resource","SUCCESS","2018-08-12T21:40:34.060-06:00","0.0","2.73"
