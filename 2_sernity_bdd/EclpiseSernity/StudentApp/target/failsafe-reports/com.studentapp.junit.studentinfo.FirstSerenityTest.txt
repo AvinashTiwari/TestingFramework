@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.studentapp.junit.studentinfo.FirstSerenityTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 2, Skipped: 3, Time elapsed: 22.103 sec <<< FAILURE! - in com.studentapp.junit.studentinfo.FirstSerenityTest
-filedoesnotExist(com.studentapp.junit.studentinfo.FirstSerenityTest)  Time elapsed: 2.647 sec  <<< ERROR!
+Tests run: 7, Failures: 1, Errors: 2, Skipped: 3, Time elapsed: 17.611 sec <<< FAILURE! - in com.studentapp.junit.studentinfo.FirstSerenityTest
+filedoesnotExist(com.studentapp.junit.studentinfo.FirstSerenityTest)  Time elapsed: 2.24 sec  <<< ERROR!
 java.io.FileNotFoundException: F:\ss.as (The system cannot find the file specified)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -10,11 +10,11 @@ java.io.FileNotFoundException: F:\ss.as (The system cannot find the file specifi
 	at java.io.FileReader.<init>(FileReader.java:72)
 	at com.studentapp.junit.studentinfo.FirstSerenityTest.filedoesnotExist(FirstSerenityTest.java:71)
 
-ThisTestCauseError(com.studentapp.junit.studentinfo.FirstSerenityTest)  Time elapsed: 2.889 sec  <<< ERROR!
+ThisTestCauseError(com.studentapp.junit.studentinfo.FirstSerenityTest)  Time elapsed: 2.474 sec  <<< ERROR!
 java.lang.ArithmeticException: / by zero
 	at com.studentapp.junit.studentinfo.FirstSerenityTest.ThisTestCauseError(FirstSerenityTest.java:64)
 
-thisIsFailingTest(com.studentapp.junit.studentinfo.FirstSerenityTest)  Time elapsed: 3.449 sec  <<< FAILURE!
+thisIsFailingTest(com.studentapp.junit.studentinfo.FirstSerenityTest)  Time elapsed: 2.484 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <500> but was <200>.
 

@@ -98,9 +98,9 @@
 				<version>2.18</version>
 				<configuration>
 					<includes>
-						<!--  include>**/features/**/When*.java</include-->
+						<!-- include>**/features/**/When*.java</include -->
 						<include>**/serenityrestassured/*.java</include>
-						<!--  include>**/src/test/java/*.java</include-->
+						<!-- include>**/src/test/java/*.java</include -->
 
 					</includes>
 					<reuseForks>true</reuseForks>
@@ -126,18 +126,25 @@
 				<version>2.18</version>
 				<configuration>
 					<skip>true</skip>
-					<!--  skipTests>false</skipTests-->
+					<!-- skipTests>false</skipTests -->
 
 				</configuration>
 			</plugin>
-			
+
 			<plugin>
 				<artifactId>maven-failsafe-plugin</artifactId>
 				<version>2.18</version>
 				<configuration>
 					<includes>
-					<include>**/studentapp/**/*.java</include>
+						<include>**/studentapp/**/*.java</include>
+						<include>**/studentapp/*.java</include>
+
 					</includes>
+					<forkCount>2</forkCount>
+					<reuseForks>true</reuseForks>
+					<!--  parallel>methods</parallel-->
+					<!--  threadCount>10</threadCount-->
+					<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 				</configuration>
 			</plugin>
 			<plugin>
