@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Tag test","Provide 200 status code correct HttpMethd","SUCCESS","2018-08-12T19:00:34.598-06:00","0.0","2.92"
+"Tag test","Provide 400 status code incorrect Http Resource","SUCCESS","2018-08-12T19:00:25.140-06:00","0.0","9.45"
+"Tag test","Provide 400 status code incorrect Http Resource","SUCCESS","2018-08-12T19:00:25.140-06:00","0.0","9.45"

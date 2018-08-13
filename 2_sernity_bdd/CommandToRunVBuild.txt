@@ -1,0 +1,3 @@
+(1) for complete run :- clean verify  serenity:aggregate
+
+(2) tage test :- clean verify -Dtags="studentfeature:NEGATIVE,studentfeature:SMOKE" serenity:aggregate

@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Serenity id info","This is failing test","FAILURE","2018-08-12T16:51:42.914-06:00","0.0","1.49"
-"First serenity test","This is failing test","FAILURE","2018-08-12T16:52:25.139-06:00","0.0","2.49"
-"Serenity id info","This test cause error","ERROR","2018-08-12T16:51:41.000-06:00","0.0","1.91"
-"First serenity test","This test cause error","ERROR","2018-08-12T16:52:22.637-06:00","0.0","2.48"

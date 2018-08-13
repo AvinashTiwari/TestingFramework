@@ -35,12 +35,12 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 2],
-                ['Pending', 2],
-                ['Ignored', 1],
-                ['Failing', 1],
-                ['Errors',  1],
-                ['Compromised',  1],
+                ['Passing', 0],
+                ['Pending', 0],
+                ['Ignored', 0],
+                ['Failing', 0],
+                ['Errors',  0],
+                ['Compromised',  0],
                 ['Untested',  0],
             ]
         ], {
@@ -68,12 +68,12 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '2 requirements tested successfully'},
-                {label: '2 requirements pending'},
-                {label: '1} requirements skipped'},
-                {label: '1} requirements with failures'},
-                {label: '1} requirements with errors'},
-                {label: '1} requirements compromised'},
+                {label: '0 requirements tested successfully'},
+                {label: '0 requirements pending'},
+                {label: '0} requirements skipped'},
+                {label: '0} requirements with failures'},
+                {label: '0} requirements with errors'},
+                {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
         });
@@ -170,7 +170,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-08-2018 16:50</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated </span>
     <br style="clear:left"/>
 </div>
 
@@ -185,286 +185,7 @@
 
                 </div>
 
-                <div id="requirements-summary">
-                    <div id="coverage_pie_chart"
-                         style="margin-top:10px; margin-left:10px; width:250px; height:250px;"></div>
-                    <div id="coverage_summary">
-                        <div>
-                            <h4>Requirements Overview</h4>
-                            <table class="summary-table">
-                                <head>
-                                    <tr>
-                                        <th>Requirement Type</th>
-                                        <th>Total</th>
-                                        <th>Pass&nbsp;<i class="icon-check"></i></th>
-                                        <th>Fail&nbsp;<i class="icon-thumbs-down"></i></th>
-                                        <th>Pending&nbsp;<i class="icon-calendar"></i></th>
-                                        <th>Ignored&nbsp;<i class="icon-ban-circle"></i></th>
-                                    </tr>
-                                </head>
-                                <body>
 
-                                <tr>
-                                    <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
-                                    <td>8</td>
-                                    <td>2</td>
-                                    <td>3</td>
-                                    <td>2</td>
-                                    <td>1</td>
-                                    <td></td>
-                                </tr>
-                                </body>
-                            </table>
-                        </div>
-
-
-
-
-
-<div>
-    <h4>Test Result Summary</h4>
-    <table class="summary-table">
-        <head>
-            <tr>
-                <th>Test Type</th>
-                <th>Total</th>
-                <th>Pass&nbsp;<i class="icon-check"/> </th>
-                <th>Fail&nbsp;<i class="icon-thumbs-down"/></th>
-                <th>Pending&nbsp;<i class="icon-calendar"/></th>
-                <th>Ignore/Skip&nbsp;<i class="icon-ban-circle"/></th>
-            </tr>
-        </head>
-        <body>
-        <tr>
-            <td class="summary-leading-column">Automated</td>
-            <td>7</td>
-            <td>2 (29%)</td>
-            <td>3 (43%)</td>
-            <td>1 (14%)</td>
-            <td>1 (14%)</td>
-        </tr>
-        <tr>
-            <td class="summary-leading-column">Manual</td>
-            <td>1</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-            <td>1 (100%)</td>
-            <td>0 (0%)</td>
-        </tr>
-        <tr>
-            <td class="summary-leading-column">Total</td>
-            <td>8</td>
-            <td>2 (25%)</td>
-            <td>3 (38%)</td>
-            <td>2 (25%)</td>
-            <td>1 (12%)</td>
-        </tr>
-        <tr>
-            <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">55 seconds</td>
-        </tr>
-        </body>
-    </table>
-</div>
-                    </div>
-                </div>
-                <div class="clr"></div>
-
-                <div id="requirements-tabs">
-<table>
-    <tr>
-        <td>
-            <div><h3>Acceptance Criteria</h3></div>
-            <div id="test_list_tests" class="table">
-                <div class="test-results">
-                    <table id="test-results-table">
-                        <thead>
-                        <tr>
-                            <th width="50" class="test-results-heading">&nbsp;</th>
-                            <th width="%" class="test-results-heading">Tests</th>
-                            <th width="70" class="test-results-heading">Steps</th>
-
-                            <th width="100" class="test-results-heading">Duration<br>(seconds)</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr class="test-COMPROMISED">
-                                <td><span class="summary-icon"><i class='fa fa-chain-broken compromised-icon ' title='COMPROMISED'></i></span>
-                                    
-                                    <span style="display:none">COMPROMISED</span></td>
-                                <td class="COMPROMISED-text">
-                                    <div class="ellipsis">
-
-                                        <a href="44f8455e4c1844e1edbfe77b46500b3fb57a932644f2359115130e5200175a04.html" class="ellipsis"
-                                           title="Filedoesnot exist F:\ss.as (The system cannot find the ...">
-                                            Filedoesnot exist
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">0</td>
-
-
-                                <td class="lightgreentext">2.63</td>
-                            </tr>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="cf3582d9013014e22e6c68ff32f316f1cac86556582db62f14d28bcb554d8a1b.html" class="ellipsis"
-                                           title="Get all student ">
-                                            Get all student
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">1</td>
-
-
-                                <td class="lightgreentext">4.33</td>
-                            </tr>
-
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                                    <i class="fa fa-user manual" title="Manual test"></i>
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
-                                    <div class="ellipsis">
-
-                                        <a href="4ba3b40798548bfa818ca6d9821483864f5486ba9898aa6b4a7f54480844ae33.html" class="ellipsis"
-                                           title="Is this manul test ">
-                                            Is this manul test
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">0</td>
-
-
-                                <td class="lightgreentext">7.6</td>
-                            </tr>
-
-                            <tr class="test-IGNORED">
-                                <td><span class="summary-icon"><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></span>
-                                    
-                                    <span style="display:none">IGNORED</span></td>
-                                <td class="IGNORED-text">
-                                    <div class="ellipsis">
-
-                                        <a href="41701f32bf0b3e67d45bb1a35a2a2cbdd2d56f8fa7f0cba6b1ae33e1dce0bc8b.html" class="ellipsis"
-                                           title="This is a skipped test ">
-                                            This is a skipped test
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">0</td>
-
-
-                                <td class="lightgreentext">2.82</td>
-                            </tr>
-
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
-                                    
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
-                                    <div class="ellipsis">
-
-                                        <a href="a53ca2f8a00212f5109b23b9c26e797c7337e5b6f397ed30dd976cbbb542ec73.html" class="ellipsis"
-                                           title="This is failing test 1 expectation failed. Expected status...">
-                                            This is failing test
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">1</td>
-
-
-                                <td class="lightgreentext">1.49</td>
-                            </tr>
-
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                                    
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
-                                    <div class="ellipsis">
-
-                                        <a href="4a86ad117b77588dcf4a858363d16b24c969bbfe0e25e192327c9116b489419d.html" class="ellipsis"
-                                           title="This pending test ">
-                                            This pending test
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">0</td>
-
-
-                                <td class="lightgreentext">1.58</td>
-                            </tr>
-
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                                    
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
-                                    <div class="ellipsis">
-
-                                        <a href="776aa15e2291b0303b8781d5ddec3cd60a7fb8e0fd034126400e55af80251553.html" class="ellipsis"
-                                           title="This test cause error / by zero">
-                                            This test cause error
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">0</td>
-
-
-                                <td class="lightgreentext">1.91</td>
-                            </tr>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="c7cffcb435cc95306e6f510abff24f303e9711a455e75a2fad6213752631124d.html" class="ellipsis"
-                                           title="This test will get information student from Student App ">
-                                            This test will get information student from Student App
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">1</td>
-
-
-                                <td class="lightgreentext">32.48</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-</div>
-                </div>
             </div>
         </div>
     </div>
