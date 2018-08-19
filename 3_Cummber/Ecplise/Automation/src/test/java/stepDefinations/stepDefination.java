@@ -59,4 +59,9 @@ public class stepDefination {
     	System.out.println("Code to Cards with true and false");
     }
 
+    @When("^User login in to application with (.+) and (.+)$")
+    public void user_login_in_to_application_with_and(String username, String password) throws Throwable {
+      System.out.println("Username " + username + " Password " + password);
+    }
+
 }
