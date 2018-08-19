@@ -33,5 +33,15 @@ public class stepDefination {
     	System.out.println("Code to Cards are Displayed");
 
     }
+    
+    @When("^User login into application with \"([^\"]*)\" and \"([^\"]*)\"$")
+    public void user_login_into_application_with_something_and_something(String strArg1, String strArg2) throws Throwable {
+    	System.out.println("user_login_into_application_with_something_and_something");
+    }
+    
+    @And("^Cards are not Displayed$")
+    public void cards_are_not_displayed() throws Throwable {
+    	System.out.println("Code to Cards are not Displayed");
+    }
 
 }
