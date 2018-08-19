@@ -1,11 +1,15 @@
 package stepDefinations;
 
+import cucumber.api.DataTable;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.And;
 import cucumber.api.junit.Cucumber;
+
+import java.util.List;
+
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
@@ -42,6 +46,17 @@ public class stepDefination {
     @And("^Cards are not Displayed$")
     public void cards_are_not_displayed() throws Throwable {
     	System.out.println("Code to Cards are not Displayed");
+    }
+    
+    @When("^User signup with folliwng details$")
+    public void user_signup_with_folliwng_details(DataTable datatable) throws Throwable {
+    	List<List<String>> dataraw = datatable.raw();
+    	System.out.println(dataraw.get(0).get(0));
+    }
+    
+    @And("^Cards diplayed are \"([^\"]*)\"$")
+    public void cards_diplayed_are_something(String strArg1) throws Throwable {
+    	System.out.println("Code to Cards with true and false");
     }
 
 }
