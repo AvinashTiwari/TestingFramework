@@ -3,7 +3,7 @@ Feature: Applciation Login
 
 
 
-
+@RegTest
 Scenario Outline: Home page default login 
 
 Given User is on net banking Landing Page
@@ -19,6 +19,7 @@ Examples:
 |user4|    password4|
 
 
+@RegTest
 Scenario: Home page default login 
 
 Given User is on net banking Landing Page
@@ -31,7 +32,7 @@ And Cards diplayed are "false"
 
 
 
-
+@RegTest
 Scenario: Home page default login 
 
 Given User is on net banking Landing Page
@@ -41,6 +42,7 @@ And Cards are Displayed
 
 
 
+@SomkeTest
 Scenario: Home page default login 
 
 Given User is on net banking Landing Page
@@ -48,7 +50,7 @@ When User login into application with "jhon" and "4321"
 Then Home page is populated
 And Cards are not Displayed
 
-
+@SomkeTest
 Scenario: Home page default login 
 
 Given User is on net banking Landing Page
