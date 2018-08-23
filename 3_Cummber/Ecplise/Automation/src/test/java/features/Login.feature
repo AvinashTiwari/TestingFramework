@@ -1,6 +1,9 @@
 Feature: Applciation Login
 
-
+Background:
+Given validate the browser
+When Browser is triggerd
+Then Check if browser is open
 
 
 @RegTest
