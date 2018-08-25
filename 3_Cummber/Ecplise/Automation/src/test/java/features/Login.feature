@@ -6,6 +6,9 @@ When Browser is triggerd
 Then Check if browser is open
 
 
+
+
+
 @RegTest
 Scenario Outline: Home page default login 
 
