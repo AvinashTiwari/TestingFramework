@@ -10,6 +10,7 @@ import cucumber.api.junit.Cucumber;
 		features="src/test/java/features",
 		glue="stepDefinations",
 		dryRun=true,
+		monochrome=true,
 		plugin={"pretty",
 				"html:target/cucumber",
 				"json:target/cucumber.json",

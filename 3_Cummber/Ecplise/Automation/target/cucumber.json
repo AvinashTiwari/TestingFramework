@@ -12,8 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 909337646,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "User is on net banking Landing Page",
@@ -24,8 +23,7 @@
           },
           {
             "result": {
-              "duration": 8180732,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "User login into application with \"jin\" and \"1234\"",
@@ -46,8 +44,7 @@
           },
           {
             "result": {
-              "duration": 325632,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "Home page is populated",
@@ -58,8 +55,7 @@
           },
           {
             "result": {
-              "duration": 5590013,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "Cards diplayed are \"true\"",
@@ -83,39 +79,16 @@
         ]
       },
       {
-        "before": [
-          {
-            "result": {
-              "duration": 568831,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.beforeValidation()"
-            }
-          }
-        ],
         "line": 14,
         "name": "Home page default login",
         "description": "",
         "id": "applciation-login;home-page-default-login",
-        "after": [
-          {
-            "result": {
-              "duration": 364032,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.afterValidation()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 167936,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "User is on net banking Landing Page",
@@ -126,8 +99,7 @@
           },
           {
             "result": {
-              "duration": 2963966,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "User login into application with \"jhon\" and \"4321\"",
@@ -148,8 +120,7 @@
           },
           {
             "result": {
-              "duration": 150528,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "Home page is populated",
@@ -160,8 +131,7 @@
           },
           {
             "result": {
-              "duration": 757247,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "Cards diplayed are \"true\"",
@@ -203,8 +173,7 @@
         "steps": [
           {
             "result": {
-              "duration": 813567,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "validate the browser",
@@ -215,8 +184,7 @@
           },
           {
             "result": {
-              "duration": 206848,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "Browser is triggerd",
@@ -227,8 +195,7 @@
           },
           {
             "result": {
-              "duration": 720895,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "Check if browser is open",
@@ -249,8 +216,7 @@
         "steps": [
           {
             "result": {
-              "duration": 375808,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "User is on net banking Landing Page",
@@ -261,8 +227,7 @@
           },
           {
             "result": {
-              "duration": 385535,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "User login in to application with user1 and password1",
@@ -287,8 +252,7 @@
           },
           {
             "result": {
-              "duration": 142848,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "Home page is populated",
@@ -299,8 +263,7 @@
           },
           {
             "result": {
-              "duration": 679423,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "Cards diplayed are \"true\"",
@@ -332,8 +295,7 @@
         "steps": [
           {
             "result": {
-              "duration": 158720,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "validate the browser",
@@ -344,8 +306,7 @@
           },
           {
             "result": {
-              "duration": 993792,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "Browser is triggerd",
@@ -356,8 +317,7 @@
           },
           {
             "result": {
-              "duration": 149504,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "Check if browser is open",
@@ -378,8 +338,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1218560,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "User is on net banking Landing Page",
@@ -390,8 +349,7 @@
           },
           {
             "result": {
-              "duration": 344575,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "User login in to application with user2 and password2",
@@ -416,8 +374,7 @@
           },
           {
             "result": {
-              "duration": 122368,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "Home page is populated",
@@ -428,8 +385,7 @@
           },
           {
             "result": {
-              "duration": 231936,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "Cards diplayed are \"true\"",
@@ -461,8 +417,7 @@
         "steps": [
           {
             "result": {
-              "duration": 187903,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "validate the browser",
@@ -473,8 +428,7 @@
           },
           {
             "result": {
-              "duration": 117760,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "Browser is triggerd",
@@ -485,8 +439,7 @@
           },
           {
             "result": {
-              "duration": 206336,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "Check if browser is open",
@@ -507,8 +460,7 @@
         "steps": [
           {
             "result": {
-              "duration": 163328,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "User is on net banking Landing Page",
@@ -519,8 +471,7 @@
           },
           {
             "result": {
-              "duration": 488959,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "User login in to application with user3 and password3",
@@ -545,8 +496,7 @@
           },
           {
             "result": {
-              "duration": 131072,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "Home page is populated",
@@ -557,8 +507,7 @@
           },
           {
             "result": {
-              "duration": 209920,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "Cards diplayed are \"true\"",
@@ -590,8 +539,7 @@
         "steps": [
           {
             "result": {
-              "duration": 945664,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "validate the browser",
@@ -602,8 +550,7 @@
           },
           {
             "result": {
-              "duration": 194048,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "Browser is triggerd",
@@ -614,8 +561,7 @@
           },
           {
             "result": {
-              "duration": 292864,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "Check if browser is open",
@@ -636,8 +582,7 @@
         "steps": [
           {
             "result": {
-              "duration": 238592,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "User is on net banking Landing Page",
@@ -648,8 +593,7 @@
           },
           {
             "result": {
-              "duration": 1031680,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "User login in to application with user4 and password4",
@@ -674,8 +618,7 @@
           },
           {
             "result": {
-              "duration": 409087,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "Home page is populated",
@@ -686,8 +629,7 @@
           },
           {
             "result": {
-              "duration": 227328,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "Cards diplayed are \"true\"",
@@ -719,8 +661,7 @@
         "steps": [
           {
             "result": {
-              "duration": 160768,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "validate the browser",
@@ -731,8 +672,7 @@
           },
           {
             "result": {
-              "duration": 147456,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "Browser is triggerd",
@@ -743,8 +683,7 @@
           },
           {
             "result": {
-              "duration": 346624,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "Check if browser is open",
@@ -765,8 +704,7 @@
         "steps": [
           {
             "result": {
-              "duration": 132608,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 31,
             "name": "User is on net banking Landing Page",
@@ -777,8 +715,7 @@
           },
           {
             "result": {
-              "duration": 3953150,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 32,
             "name": "User signup with folliwng details",
@@ -801,8 +738,7 @@
           },
           {
             "result": {
-              "duration": 135168,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 35,
             "name": "Home page is populated",
@@ -813,8 +749,7 @@
           },
           {
             "result": {
-              "duration": 210432,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 36,
             "name": "Cards diplayed are \"false\"",
@@ -846,8 +781,7 @@
         "steps": [
           {
             "result": {
-              "duration": 146432,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "validate the browser",
@@ -858,8 +792,7 @@
           },
           {
             "result": {
-              "duration": 125440,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "Browser is triggerd",
@@ -870,8 +803,7 @@
           },
           {
             "result": {
-              "duration": 214016,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "Check if browser is open",
@@ -892,8 +824,7 @@
         "steps": [
           {
             "result": {
-              "duration": 578560,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 44,
             "name": "User is on net banking Landing Page",
@@ -904,8 +835,7 @@
           },
           {
             "result": {
-              "duration": 337920,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 45,
             "name": "User login into application with \"jin\" and \"1234\"",
@@ -926,8 +856,7 @@
           },
           {
             "result": {
-              "duration": 142335,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 46,
             "name": "Home page is populated",
@@ -938,8 +867,7 @@
           },
           {
             "result": {
-              "duration": 144384,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 47,
             "name": "Cards are Displayed",
@@ -965,8 +893,7 @@
         "steps": [
           {
             "result": {
-              "duration": 206336,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "validate the browser",
@@ -977,8 +904,7 @@
           },
           {
             "result": {
-              "duration": 163840,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "Browser is triggerd",
@@ -989,8 +915,7 @@
           },
           {
             "result": {
-              "duration": 127488,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "Check if browser is open",
@@ -1011,8 +936,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1827327,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 54,
             "name": "User is on net banking Landing Page",
@@ -1023,8 +947,7 @@
           },
           {
             "result": {
-              "duration": 264191,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 55,
             "name": "User login into application with \"jhon\" and \"4321\"",
@@ -1045,8 +968,7 @@
           },
           {
             "result": {
-              "duration": 128512,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 56,
             "name": "Home page is populated",
@@ -1057,8 +979,7 @@
           },
           {
             "result": {
-              "duration": 160256,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 57,
             "name": "Cards are not Displayed",
@@ -1084,8 +1005,7 @@
         "steps": [
           {
             "result": {
-              "duration": 209408,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "validate the browser",
@@ -1096,8 +1016,7 @@
           },
           {
             "result": {
-              "duration": 131072,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "Browser is triggerd",
@@ -1108,8 +1027,7 @@
           },
           {
             "result": {
-              "duration": 99840,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "Check if browser is open",
@@ -1130,8 +1048,7 @@
         "steps": [
           {
             "result": {
-              "duration": 105984,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 62,
             "name": "User is on net banking Landing Page",
@@ -1142,8 +1059,7 @@
           },
           {
             "result": {
-              "duration": 129536,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 63,
             "name": "User login into application with username and password",
@@ -1154,8 +1070,7 @@
           },
           {
             "result": {
-              "duration": 5270526,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 64,
             "name": "Home page is populated",
@@ -1166,8 +1081,7 @@
           },
           {
             "result": {
-              "duration": 315904,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 65,
             "name": "Cards are Displayed",
