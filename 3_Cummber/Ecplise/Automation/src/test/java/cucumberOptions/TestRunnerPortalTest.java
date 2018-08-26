@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="src/test/java/features",
-		glue="stepDefinations",
-		tags="@PortalTest"		)
-public class TestRunnerHook {
+		glue="stepDefinations"
+		)
+public class TestRunnerPortalTest {
 
 }

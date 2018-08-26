@@ -25,7 +25,7 @@ Examples:
 |user4|    password4|
 
 
-@RegTest
+@PortalTest
 Scenario: Home page default login 
 
 Given User is on net banking Landing Page
