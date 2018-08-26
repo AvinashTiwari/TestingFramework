@@ -11,6 +11,7 @@ import cucumber.api.junit.Cucumber;
 		glue="stepDefinations",
 		dryRun=true,
 		monochrome=true,
+		strict=true,
 		plugin={"pretty",
 				"html:target/cucumber",
 				"json:target/cucumber.json",
