@@ -1,4 +1,5 @@
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.given;
 
@@ -15,6 +16,8 @@ public class BasicsFailure {
                 .get("/maps/api/place/nearbysearch/json")
                 .then()
                 .assertThat()
-                .statusCode(250);
+                .statusCode(250)
+                .and()
+                .contentType(ContentType.XML);
     }
 }

@@ -1,6 +1,8 @@
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
 
 public class BasicsSucess {
 
@@ -15,6 +17,9 @@ public class BasicsSucess {
                 .get("/maps/api/place/nearbysearch/json")
                 .then()
                 .assertThat()
-                .statusCode(200);
+                .statusCode(200)
+        .and()
+        .contentType(ContentType.JSON).and()
+        .body("results[0].name", equalTo("Cruise Bar, Restaurant & Events"));
     }
 }
