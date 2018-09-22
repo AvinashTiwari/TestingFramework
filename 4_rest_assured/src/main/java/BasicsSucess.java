@@ -2,7 +2,7 @@ import io.restassured.RestAssured;
 
 import static io.restassured.RestAssured.given;
 
-public class Basics {
+public class BasicsSucess {
 
     public static void main(String[] args) {
         RestAssured.baseURI="https://maps.googleapis.com";
@@ -15,6 +15,6 @@ public class Basics {
                 .get("/maps/api/place/nearbysearch/json")
                 .then()
                 .assertThat()
-                .statusCode(250);
+                .statusCode(200);
     }
 }
