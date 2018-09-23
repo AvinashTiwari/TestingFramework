@@ -1,11 +1,14 @@
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
 public class BasicsFailure {
 
-    public static void main(String[] args) {
+    @Test()
+    public void Test() {
+
         RestAssured.baseURI="https://maps.googleapis.com";
         given().param("location", "-33.8670522,151.1957362")
                 .param("radius","1500")
