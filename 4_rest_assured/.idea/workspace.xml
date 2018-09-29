@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbba085-8f35-412a-8ccc-1faf820e1990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Basic3_GettingResponseBodyForAdvanceValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic3_GettingResponseBodyForAdvanceValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic3_GettingResponseBodyForAdvanceValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Basic3_GettingResponseBodyForAdvanceValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Basic3_GettingResponseBodyForAdvanceValidation.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,27 +18,30 @@
     <session id="-2107681027">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.105" value="1" />
+          <entry key="project.open.time.121" value="1" />
           <entry key="project.open.time.124" value="1" />
+          <entry key="project.open.time.144" value="1" />
           <entry key="project.open.time.159" value="1" />
           <entry key="project.open.time.198" value="1" />
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="614" />
+          <entry key="java" value="689" />
           <entry key="xml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="614" />
+          <entry key="JAVA" value="689" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="21" />
         </counts>
@@ -63,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Basics2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="527">
+              <caret line="36" column="9" selection-start-line="11" selection-start-column="5" selection-end-line="36" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -72,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Basic3_GettingResponseBodyForAdvanceValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="174">
+              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,6 +145,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,15 +176,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537924689129" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538193977481" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -199,8 +203,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace (1)">
+  <component name="RunManager" selected="TestNG.Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace">
     <configuration name="Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="4_rest_assured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Basic3_GettingResponseBodyForAdvanceValidation" />
+      <option name="METHOD_NAME" value="AddAndDeletePlace" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="4_rest_assured" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Basic3_GettingResponseBodyForAdvanceValidation" />
@@ -236,18 +252,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicsFailure.Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="4_rest_assured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicsFailure" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BasicsSucess.Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="4_rest_assured" />
       <option name="PACKAGE_NAME" value="" />
@@ -262,18 +266,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.BasicsSucess.Test" />
-      <item itemvalue="TestNG.BasicsFailure.Test" />
       <item itemvalue="TestNG.Basics2.postData" />
       <item itemvalue="TestNG.Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace" />
       <item itemvalue="TestNG.Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace (1)" />
+      <item itemvalue="TestNG.Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace (1)" />
         <item itemvalue="TestNG.Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace" />
+        <item itemvalue="TestNG.Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace (2)" />
+        <item itemvalue="TestNG.Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace (1)" />
         <item itemvalue="TestNG.Basics2.postData" />
         <item itemvalue="TestNG.BasicsSucess.Test" />
-        <item itemvalue="TestNG.BasicsFailure.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -294,22 +298,13 @@
       <workItem from="1537732930630" duration="610000" />
       <workItem from="1537837614016" duration="1624000" />
       <workItem from="1537923641749" duration="992000" />
+      <workItem from="1538008307786" duration="1653000" />
+      <workItem from="1538186871957" duration="1043000" />
+      <workItem from="1538259912120" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicsSucess_Test - 2018.09.23 at 14h 07m 32s.xml">
-      <configuration name="BasicsSucess.Test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicsFailure_Test - 2018.09.23 at 14h 10m 41s.xml">
-      <configuration name="BasicsFailure.Test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicsSucess_Test - 2018.09.23 at 14h 12m 31s.xml">
-      <configuration name="BasicsSucess.Test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicsSucess_Test - 2018.09.23 at 14h 13m 40s.xml">
-      <configuration name="BasicsSucess.Test" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Basics2_postData - 2018.09.24 at 19h 27m 22s.xml">
       <configuration name="Basics2.postData" configurationId="TestNG" />
     </history-entry>
@@ -319,14 +314,35 @@
     <history-entry file="Basic3_GettingResponseBodyForAdvanceValidation_AddAndDeletePlace_(1) - 2018.09.25 at 19h 18m 19s.xml">
       <configuration name="Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace (1)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Basic3_GettingResponseBodyForAdvanceValidation_AddAndDeletePlace_(2) - 2018.09.26 at 18h 47m 00s.xml">
+      <configuration name="Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basic3_GettingResponseBodyForAdvanceValidation_AddAndDeletePlace - 2018.09.26 at 18h 55m 29s.xml">
+      <configuration name="Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basic3_GettingResponseBodyForAdvanceValidation_AddAndDeletePlace - 2018.09.26 at 19h 00m 39s.xml">
+      <configuration name="Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basic3_GettingResponseBodyForAdvanceValidation_AddAndDeletePlace - 2018.09.26 at 19h 02m 33s.xml">
+      <configuration name="Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basic3_GettingResponseBodyForAdvanceValidation_AddAndDeletePlace - 2018.09.28 at 21h 59m 59s.xml">
+      <configuration name="Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basic3_GettingResponseBodyForAdvanceValidation_AddAndDeletePlace - 2018.09.28 at 22h 01m 20s.xml">
+      <configuration name="Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basic3_GettingResponseBodyForAdvanceValidation_AddAndDeletePlace - 2018.09.28 at 22h 06m 35s.xml">
+      <configuration name="Basic3_GettingResponseBodyForAdvanceValidation.AddAndDeletePlace" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8495000" />
+    <option name="totallyTimeSpent" value="11204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -394,15 +410,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Basics2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="527">
+          <caret line="36" column="9" selection-start-line="11" selection-start-column="5" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Basic3_GettingResponseBodyForAdvanceValidation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="174">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

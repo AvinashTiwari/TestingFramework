@@ -46,6 +46,30 @@ public class Basic3_GettingResponseBodyForAdvanceValidation {
       String palceId =   jsonPath.get("place_id");
         System.out.println(palceId);
 
+        /*
+        * {"status":"OK","place_id":"8b051e1218d121cd9d4530ebbf704cd8","scope":"APP","reference":"4a08226c965c238f6bad7849ecd767a14a08226c965c238f6bad7849ecd767a1","id":"4a08226c965c238f6bad7849ecd767a1"}
+8b051e1218d121cd9d4530ebbf704cd8
+
+        * */
+
+        given()
+                .queryParam("key", "qaclick123")
+                .body("{\"place_id\":\"+palceId+\"}")
+                .when()
+                .post("maps/api/place/delete/json")
+                .then()
+                .assertThat()
+                .statusCode(200)
+                .and()
+                .contentType(ContentType.JSON)
+                .and()
+                .body("status", equalTo("OK"))
+                .extract().response()
+        ;
+
+
+
+
 
     }
 }
