@@ -15,7 +15,6 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class Basic3_GettingResponseBodyForAdvanceValidation {
     Properties prop = new Properties();
-
     @BeforeTest()
     public void getData() throws IOException {
         FileInputStream fis = new FileInputStream(".\\src\\files\\env.properties");
@@ -27,22 +26,9 @@ public class Basic3_GettingResponseBodyForAdvanceValidation {
         RestAssured.baseURI=        prop.getProperty("HOST");
         System.out.println("HOST Value " + prop.getProperty("HOST"));
        Response res = given()
-                .queryParam("keyword", "cruise")
-                .body("{\n" +
-                        "    \"location\":{\n" +
-                        "        \"lat\" : -38.383494,\n" +
-                        "        \"lng\" : 33.427362\n" +
-                        "    },\n" +
-                        "    \"accuracy\":50,\n" +
-                        "    \"name\":\"Frontline house\",\n" +
-                        "    \"phone_number\":\"(+91) 983 893 3937\",\n" +
-                        "    \"address\" : \"29, side layout, cohen 09\",\n" +
-                        "    \"types\": [\"shoe park\",\"shop\"],\n" +
-                        "    \"website\" : \"http://google.com\",\n" +
-                        "    \"language\" : \"French-IN\"\n" +
-                        "}\n" +
-                        "\n").when()
-                .post("maps/api/place/add/json")
+                .queryParam("key", prop.getProperty("KEY"))
+                .body(Payload.getPostData()).when()
+                .post(resources.postData())
                 .then()
                 .assertThat()
                 .statusCode(200)
@@ -66,6 +52,8 @@ public class Basic3_GettingResponseBodyForAdvanceValidation {
 
         * */
 
+        System.out.println("Key " + prop.getProperty("KEY"));
+
 String todelete ="{";
         todelete = todelete + "\"place_id\":\""+palceId+"\"";
         todelete = todelete + "}";
@@ -74,7 +62,7 @@ String todelete ="{";
 
 
         given()
-                .queryParam("key", "qaclick123")
+                .queryParam("key", prop.getProperty("KEY"))
                 .body( todelete)
                 .when()
                 .post("maps/api/place/delete/json")
