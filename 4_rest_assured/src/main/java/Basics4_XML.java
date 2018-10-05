@@ -1,5 +1,6 @@
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
@@ -27,6 +28,12 @@ public class Basics4_XML {
         .contentType(ContentType.XML).extract().response()
 
         ;
+
+      String resp = res.asString();
+
+      XmlPath x = new XmlPath(resp);
+
+      System.out.println(x.get("XML.placeid"));
     }
 
     public static String GenerateStringFromResource(String path) throws IOException {
