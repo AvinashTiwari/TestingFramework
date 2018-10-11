@@ -17,6 +17,8 @@ public class Basics5_CompleteLoopJsonPath {
                 .param("type", "restaurant")
                 .param("keyword", "cruise")
                 .param("key","AIzaSyBNFr6lZh5tpxcokwHIHCwbd5zM6iUmqR8")
+              .log()
+              .all()
                 .when()
                 .get("/maps/api/place/nearbysearch/json")
                 .then()
