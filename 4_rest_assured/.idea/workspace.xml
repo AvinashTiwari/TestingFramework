@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbba085-8f35-412a-8ccc-1faf820e1990" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Basic7_Jiraapi_Put.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/env.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Basic6_Jiraapi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic6_Jiraapi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReuseableMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReuseableMethod.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,9 +17,10 @@
     <session id="-2107681027">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.105" value="1" />
           <entry key="project.open.time.113" value="1" />
+          <entry key="project.open.time.116" value="1" />
           <entry key="project.open.time.121" value="1" />
           <entry key="project.open.time.122" value="1" />
           <entry key="project.open.time.123" value="1" />
@@ -40,21 +39,21 @@
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.89" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="7" />
-          <entry key="java" value="2153" />
+          <entry key="dummy" value="8" />
+          <entry key="java" value="2202" />
           <entry key="properties" value="50" />
           <entry key="xml" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2153" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="JAVA" value="2202" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="Properties" value="50" />
           <entry key="XML" value="26" />
         </counts>
@@ -62,7 +61,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="13" />
+          <entry key="java" value="14" />
           <entry key="properties" value="1" />
           <entry key="xml" value="4" />
         </counts>
@@ -70,7 +69,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="14" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="4" />
         </counts>
@@ -80,15 +79,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BasicsSucess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Basics5_CompleteLoopJsonPath.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -97,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Basic6_Jiraapi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="307">
+              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,11 +99,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Basic7_Jiraapi_Put.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ReuseableMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="38" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="38" />
+            <state relative-caret-position="561">
+              <caret line="38" selection-start-line="36" selection-start-column="7" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,6 +203,8 @@
         <option value="$PROJECT_DIR$/src/files/env.properties" />
         <option value="$PROJECT_DIR$/src/main/java/ReuseableMethod.java" />
         <option value="$PROJECT_DIR$/src/main/java/Basic6_Jiraapi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Basic6_Jiraapi_Put.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Basic7_Jiraapi_Put.java" />
       </list>
     </option>
   </component>
@@ -243,9 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,16 +275,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="restassured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4_rest_assured" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic7_Jiraapi_Put" type="1a9f42e2:ClassTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539309532988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539397261886" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -307,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Basic6_Jiraapi.JiraApi (1)">
+  <component name="RunManager" selected="TestNG.Basic7_Jiraapi_Put.JiraApi_Add_comment_Put">
     <configuration name="Basic6_Jiraapi" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="4_rest_assured" />
       <option name="PACKAGE_NAME" value="" />
@@ -330,11 +339,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Basic6_Jiraapi.JiraApi" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Basic6_Jiraapi.JiraApi_Post" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="4_rest_assured" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Basic6_Jiraapi" />
-      <option name="METHOD_NAME" value="JiraApi" />
+      <option name="METHOD_NAME" value="JiraApi_Post" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -342,11 +351,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Basics5_CompleteLoopJsonPath.Test (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Basic7_Jiraapi_Put.JiraApi_Add_comment_Put" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="4_rest_assured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Basics5_CompleteLoopJsonPath" />
-      <option name="METHOD_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Basic7_Jiraapi_Put" />
+      <option name="METHOD_NAME" value="JiraApi_Add_comment_Put" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -354,11 +363,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Basics5_CompleteLoopJsonPath.Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Basic7_Jiraapi_Put.JiraApi_Put" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="4_rest_assured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Basics5_CompleteLoopJsonPath" />
-      <option name="METHOD_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Basic7_Jiraapi_Put" />
+      <option name="METHOD_NAME" value="JiraApi_Put" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -367,19 +376,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Basics5_CompleteLoopJsonPath.Test" />
-      <item itemvalue="TestNG.Basics5_CompleteLoopJsonPath.Test (1)" />
-      <item itemvalue="TestNG.Basic6_Jiraapi.JiraApi" />
       <item itemvalue="TestNG.Basic6_Jiraapi" />
       <item itemvalue="TestNG.Basic6_Jiraapi.JiraApi (1)" />
+      <item itemvalue="TestNG.Basic6_Jiraapi.JiraApi_Post" />
+      <item itemvalue="TestNG.Basic7_Jiraapi_Put.JiraApi_Put" />
+      <item itemvalue="TestNG.Basic7_Jiraapi_Put.JiraApi_Add_comment_Put" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Basic7_Jiraapi_Put.JiraApi_Add_comment_Put" />
+        <item itemvalue="TestNG.Basic7_Jiraapi_Put.JiraApi_Put" />
+        <item itemvalue="TestNG.Basic6_Jiraapi.JiraApi_Post" />
         <item itemvalue="TestNG.Basic6_Jiraapi.JiraApi (1)" />
         <item itemvalue="TestNG.Basic6_Jiraapi" />
-        <item itemvalue="TestNG.Basic6_Jiraapi.JiraApi" />
-        <item itemvalue="TestNG.Basics5_CompleteLoopJsonPath.Test (1)" />
-        <item itemvalue="TestNG.Basics5_CompleteLoopJsonPath.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -413,19 +422,11 @@
       <workItem from="1539219389543" duration="596000" />
       <workItem from="1539307021274" duration="1243000" />
       <workItem from="1539308483612" duration="1014000" />
+      <workItem from="1539395399705" duration="1939000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Basics4_XML_postData - 2018.10.01 at 21h 57m 07s.xml">
-      <configuration name="Basics4_XML.postData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Basics4_XML_postData - 2018.10.03 at 19h 41m 27s.xml">
-      <configuration name="Basics4_XML.postData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Basics4_XML_postData_(1) - 2018.10.05 at 21h 25m 09s.xml">
-      <configuration name="Basics4_XML.postData (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="BasicsSucess_Test - 2018.10.05 at 22h 03m 23s.xml">
       <configuration name="BasicsSucess.Test" configurationId="TestNG" />
     </history-entry>
@@ -447,14 +448,23 @@
     <history-entry file="Basic6_Jiraapi_JiraApi_(1) - 2018.10.11 at 19h 58m 01s.xml">
       <configuration name="Basic6_Jiraapi.JiraApi (1)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Basic6_Jiraapi_JiraApi_Post - 2018.10.12 at 20h 03m 01s.xml">
+      <configuration name="Basic6_Jiraapi.JiraApi_Post" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basic7_Jiraapi_Put_JiraApi_Put - 2018.10.12 at 20h 12m 31s.xml">
+      <configuration name="Basic7_Jiraapi_Put.JiraApi_Put" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basic7_Jiraapi_Put_JiraApi_Add_comment_Put - 2018.10.12 at 20h 20m 12s.xml">
+      <configuration name="Basic7_Jiraapi_Put.JiraApi_Add_comment_Put" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23145000" />
+    <option name="totallyTimeSpent" value="25084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33207262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33736762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -517,9 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,6 +541,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReuseableMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="38" selection-start-line="36" selection-start-column="7" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -565,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Basic3_GettingResponseBodyForAdvanceValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="47" selection-start-line="12" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/files/env.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -579,23 +589,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReuseableMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Basic3_GettingResponseBodyForAdvanceValidation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="38" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="38" />
+        <state relative-caret-position="204">
+          <caret line="12" column="47" selection-start-line="12" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Basic6_Jiraapi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Basic6_Jiraapi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Basic7_Jiraapi_Put.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="327">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
         </state>
       </provider>
     </entry>
