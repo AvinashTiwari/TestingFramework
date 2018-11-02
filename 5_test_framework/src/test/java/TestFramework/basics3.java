@@ -1,14 +1,14 @@
 package TestFramework;
 import static io.restassured.RestAssured.given;
-import TestFramework.resources;
 import static org.hamcrest.Matchers.equalTo;
 
 import java.io.FileInputStream;
-import TestFramework.payLoad;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+import TestFrameWork.payLoad;
+import TestFrameWork.resources;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
