@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60caf451-d2d9-4209-a88e-5a391062e0c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/GetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/PostRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/DeleteRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/PatchRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/PutRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/model/FirstUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/util/CucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/first.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/learn/avinash/bdd/GetRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/learn/avinash/bdd/PostRequest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,17 +25,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="277">
+              <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/GetRequest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/GetRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="13" column="66" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="66" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,10 +44,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/PostRequest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/PostRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="47" column="27" selection-start-line="39" selection-start-column="11" selection-end-line="47" selection-end-column="27" />
+            <state relative-caret-position="408">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/first.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/util/CucumberRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/PutRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="442">
               <caret line="31" column="23" selection-start-line="13" selection-start-column="7" selection-end-line="31" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -72,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/PatchRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
+            <state relative-caret-position="340">
               <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/DeleteRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="119">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,13 +145,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>junit</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/GetRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/PostRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/model/Address.java" />
@@ -140,6 +163,9 @@
         <option value="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/PutRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/PatchRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/DeleteRequest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/first.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/util/CucumberRunner.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -164,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,6 +206,12 @@
               <item name="1-api-rest-bdd" type="b2602c69:ProjectViewProjectNode" />
               <item name="1-api-rest-bdd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1-api-rest-bdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1-api-rest-bdd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -203,20 +234,25 @@
               <item name="1-api-rest-bdd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bdd" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TestingFrameWork\7_api_bdd\1-api-rest-bdd\src\test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,7 +266,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeleteRequest.getJsonPlaceHolder">
+  <component name="RunManager" selected="Cucumber java.Scenario: Today is or is not Friday">
+    <configuration name="Feature: first" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/first.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="1-api-rest-bdd" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: first" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Today is or is not Friday" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/first.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="1-api-rest-bdd" />
+      <option name="NAME_FILTER" value="^Today is or is not Friday$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Today is or is not Friday$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Today is or is not Friday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1-api-rest-bdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.avinash.bdd.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.avinash.bdd.util" />
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.bdd.util.CucumberRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeleteRequest.getJsonPlaceHolder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="1-api-rest-bdd" />
       <extension name="coverage">
@@ -243,21 +329,6 @@
       <option name="MAIN_CLASS_NAME" value="learn.avinash.bdd.api.DeleteRequest" />
       <option name="METHOD_NAME" value="getJsonPlaceHolder" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="1-api-rest-bdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.avinash.bdd.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learn.avinash.bdd.api" />
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.bdd.api.GetRequest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -278,45 +349,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostRequest.jsonPlaceHolder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="1-api-rest-bdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.avinash.bdd.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learn.avinash.bdd.api" />
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.bdd.api.PostRequest" />
-      <option name="METHOD_NAME" value="jsonPlaceHolder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PutRequest.putJsonPlaceHolder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="1-api-rest-bdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.avinash.bdd.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learn.avinash.bdd.api" />
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.bdd.api.PutRequest" />
-      <option name="METHOD_NAME" value="putJsonPlaceHolder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Today is or is not Friday" />
+        <item itemvalue="Cucumber java.Feature: first" />
+        <item itemvalue="JUnit.CucumberRunner" />
         <item itemvalue="JUnit.DeleteRequest.getJsonPlaceHolder" />
         <item itemvalue="JUnit.PatchRequest.pacthJsonPlaceHolder" />
-        <item itemvalue="JUnit.PutRequest.putJsonPlaceHolder" />
-        <item itemvalue="JUnit.PostRequest.jsonPlaceHolder" />
-        <item itemvalue="JUnit.GetRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -334,12 +373,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetRequest_getJsonPlaceHolder - 2019.08.02 at 19h 39m 28s.xml">
-      <configuration name="GetRequest.getJsonPlaceHolder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GetRequest_getJsonPlaceHolder - 2019.08.02 at 19h 39m 52s.xml">
-      <configuration name="GetRequest.getJsonPlaceHolder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PostRequest_jsonPlaceHolder - 2019.08.03 at 14h 54m 41s.xml">
       <configuration name="PostRequest.jsonPlaceHolder" configurationId="JUnit" />
     </history-entry>
@@ -364,12 +397,18 @@
     <history-entry file="DeleteRequest_getJsonPlaceHolder - 2019.08.04 at 13h 55m 00s.xml">
       <configuration name="DeleteRequest.getJsonPlaceHolder" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CucumberRunner - 2019.08.04 at 14h 07m 31s.xml">
+      <configuration name="CucumberRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Feature__first - 2019.08.04 at 14h 08m 26s.xml">
+      <configuration name="Feature: first" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -404,6 +443,36 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/PutRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" column="23" selection-start-line="13" selection-start-column="7" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/PatchRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/DeleteRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/model/FirstUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -424,60 +493,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/PostRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/GetRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="47" column="27" selection-start-line="39" selection-start-column="11" selection-end-line="47" selection-end-column="27" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/PutRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/PostRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="31" column="23" selection-start-line="13" selection-start-column="7" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="408">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/PatchRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/util/CucumberRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/GetRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/first.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/api/DeleteRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="277">
+          <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
         </state>
       </provider>
     </entry>
