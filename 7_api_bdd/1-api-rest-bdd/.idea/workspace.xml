@@ -251,12 +251,12 @@
       <module name="1-api-rest-bdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learn.avinash.bdd.*" />
+          <option name="PATTERN" value="learn.avinash.bdd.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="learn.avinash.bdd" />
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.bdd.GetRequest" />
+      <option name="PACKAGE_NAME" value="learn.avinash.bdd.api" />
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.bdd.api.GetRequest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -282,12 +282,12 @@
       <module name="1-api-rest-bdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learn.avinash.bdd.*" />
+          <option name="PATTERN" value="learn.avinash.bdd.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="learn.avinash.bdd" />
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.bdd.PostRequest" />
+      <option name="PACKAGE_NAME" value="learn.avinash.bdd.api" />
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.bdd.api.PostRequest" />
       <option name="METHOD_NAME" value="jsonPlaceHolder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
