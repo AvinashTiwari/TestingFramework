@@ -1,6 +1,7 @@
 Feature: Is it Friday yet?
   Everybody wants to know when it's Friday
 
+  @Smoke
   Scenario Outline: Today is or is not Friday
     Given today is "<day>"
     When I ask whether it's Friday yet
