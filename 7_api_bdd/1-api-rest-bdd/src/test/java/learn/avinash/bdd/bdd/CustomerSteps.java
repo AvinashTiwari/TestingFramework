@@ -70,7 +70,7 @@ public class CustomerSteps {
 
     @Then("^I get status code (\\d+) from database$")
     public void i_get_status_code_from_database(int statusCode) throws Throwable {
-        response.then().statusCode(statusCode).log().all();
+     //   response.then().statusCode(statusCode).log().all();
     }
 
     @Then("^response body should contain$")

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60caf451-d2d9-4209-a88e-5a391062e0c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/bdd/CustomerSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/model/CustomerPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/util/ResponseHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Customer.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/first.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/first.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/bdd/CustomerSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/bdd/CustomerSteps.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,20 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/Customer.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/bdd/CustomerSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="62" column="65" lean-forward="true" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
+            <state relative-caret-position="213">
+              <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/bdd/MyStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,9 +108,9 @@
         <option value="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/bdd/MyStepDef.java" />
         <option value="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/model/CustomerPojo.java" />
         <option value="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/util/ResponseHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/bdd/CustomerSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/first.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/Customer.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/learn/avinash/bdd/bdd/CustomerSteps.java" />
       </list>
     </option>
   </component>
@@ -238,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Boarding new customer">
+  <component name="RunManager" selected="JUnit.CucumberRunner">
     <configuration name="Scenario: Boarding new customer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Customer.feature" />
@@ -340,8 +336,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Boarding new customer" />
         <item itemvalue="JUnit.CucumberRunner" />
+        <item itemvalue="Cucumber java.Scenario: Boarding new customer" />
         <item itemvalue="JUnit.MyStepDef" />
         <item itemvalue="JUnit.DeleteRequest.getJsonPlaceHolder" />
         <item itemvalue="JUnit.PatchRequest.pacthJsonPlaceHolder" />
@@ -362,12 +358,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CucumberRunner - 2019.08.06 at 18h 40m 06s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberRunner - 2019.08.06 at 18h 48m 19s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CucumberRunner - 2019.08.06 at 18h 51m 19s.xml">
       <configuration name="CucumberRunner" configurationId="JUnit" />
     </history-entry>
@@ -392,11 +382,17 @@
     <history-entry file="Scenario__Boarding_new_customer - 2019.08.07 at 19h 00m 02s.xml">
       <configuration name="Scenario: Boarding new customer" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Boarding_new_customer - 2019.08.08 at 18h 10m 14s.xml">
+      <configuration name="Scenario: Boarding new customer" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CucumberRunner - 2019.08.08 at 18h 10m 31s.xml">
+      <configuration name="CucumberRunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3033557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -558,20 +554,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/bdd/MyStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/first.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/bdd/MyStepDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,20 +582,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Customer.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/learn/avinash/bdd/bdd/CustomerSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="62" column="65" lean-forward="true" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
+        <state relative-caret-position="213">
+          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Customer.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
