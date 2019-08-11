@@ -1,4 +1,4 @@
-package learn.avinash.bdd.util;
+package learn.avinash.bdd.junit;
 
 
 import io.restassured.http.ContentType;
