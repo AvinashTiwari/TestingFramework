@@ -10,11 +10,15 @@ import static io.restassured.RestAssured.when;
 
 public class GetRequestDemo {
 
+    String apikey = "";
 
     @BeforeClass
     public void steup(){
         RestAssured.baseURI = "https://maps.googleapis.com";
         RestAssured.basePath = "/maps/api";
+
+        //
+        apikey = System.getenv("GOOGLE_MAP_API_KEY");
 
     }
 
@@ -24,7 +28,7 @@ public class GetRequestDemo {
                 .param("units","imperial")
                 .param("origins", "Washington,DC")
                 .param("destinations","New+York+City,NY")
-                .param("key", "")
+                .param("key", apikey)
                 .when()
                         .get("/distancematrix/json")
                         .then()
@@ -39,7 +43,7 @@ public class GetRequestDemo {
                 .param("units","imperial")
                 .param("origins", "Washington,DC")
                 .param("destinations","New+York+City,NY")
-                .param("key", "")
+                .param("key", apikey)
                 .when()
                 .get("/distancematrix/json");
 
