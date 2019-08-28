@@ -17,11 +17,14 @@ public class PostRequestDemo {
 
     @Test
     public void TestPost(){
+
         given()
+                .contentType("application/json")
+                .body("{\"id\":1,\"petId\":2,\"quantity\":3,\"shipDate\":\"2019-08-27T23:51:25.064Z\",\"status\":\"placed\",\"complete\":false}")
                 .when()
                 .post("/order")
                 .then()
-                .statusCode(201)
+                .statusCode(200)
                 .and()
                 .contentType(ContentType.JSON);
     }
