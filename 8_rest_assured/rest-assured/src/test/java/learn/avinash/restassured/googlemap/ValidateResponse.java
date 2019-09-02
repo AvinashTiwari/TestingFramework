@@ -1,4 +1,4 @@
-package learn.avinash.restassured;
+package learn.avinash.restassured.googlemap;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
