@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.StudentPatchTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.162 s <<< FAILURE! - in tests.StudentPatchTest
+updateStudent(tests.StudentPatchTest)  Time elapsed: 4.154 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at tests.StudentPatchTest.updateStudent(StudentPatchTest.java:43)
+

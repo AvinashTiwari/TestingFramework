@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.StudentDeleteTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.926 s <<< FAILURE! - in tests.StudentDeleteTest
+deleteStudent(tests.StudentDeleteTest)  Time elapsed: 5.929 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at tests.StudentDeleteTest.deleteStudent(StudentDeleteTest.java:26)
+

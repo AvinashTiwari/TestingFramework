@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: allurereport.EpicFeatureStoryTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.021 s <<< FAILURE! - in allurereport.EpicFeatureStoryTest
+tc2(allurereport.EpicFeatureStoryTest)  Time elapsed: 0.056 s  <<< ERROR!
+javax.imageio.IIOException: Can't read input file!
+	at allurereport.EpicFeatureStoryTest.tc2(EpicFeatureStoryTest.java:43)
+
