@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="29.711766">
+<testcase classname="Add New Deal" name="Login Free CRM with Valid Creadentials" time="13.053575">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;Free CRM [in the cloud software boosts sales]&gt; but was:&lt;Free CRM [#1 cloud software for any business large or small]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at StepDefinitions.MultiDealsSteps.application_Page_Tittle_is_FREE_CRM(MultiDealsSteps.java:64)&#13;&#10;&#9;at ✽.When Application Page Tittle is FREE CRM(src/main/java/Features/Hooks.feature:5)&#13;&#10;"><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Tittle is FREE CRM....................................failed
+Then user enters username and password......................................skipped
+And user clicks on Login Butoon.............................................skipped
+When User navigate to user Profile page.....................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<Free CRM [in the cloud software boosts sales]> but was:<Free CRM [#1 cloud software for any business large or small]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinitions.MultiDealsSteps.application_Page_Tittle_is_FREE_CRM(MultiDealsSteps.java:64)
+	at ✽.When Application Page Tittle is FREE CRM(src/main/java/Features/Hooks.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="Add New Deal" name="Login Free CRM with InValid Creadentials" time="8.040285">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;Free CRM [in the cloud software boosts sales]&gt; but was:&lt;Free CRM [#1 cloud software for any business large or small]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at StepDefinitions.MultiDealsSteps.application_Page_Tittle_is_FREE_CRM(MultiDealsSteps.java:64)&#13;&#10;&#9;at ✽.When Application Page Tittle is FREE CRM(src/main/java/Features/Hooks.feature:16)&#13;&#10;"><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Tittle is FREE CRM....................................failed
+Then user enters username and password......................................skipped
+And user clicks on Login Butoon.............................................skipped
+When Application Page Tittle is FREE CRM....................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<Free CRM [in the cloud software boosts sales]> but was:<Free CRM [#1 cloud software for any business large or small]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinitions.MultiDealsSteps.application_Page_Tittle_is_FREE_CRM(MultiDealsSteps.java:64)
+	at ✽.When Application Page Tittle is FREE CRM(src/main/java/Features/Hooks.feature:16)
+]]></failure>
+</testcase>
+<testcase classname="Add New Deal" name="Add New Multi Deal" time="8.617906">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;Free CRM [in the cloud software boosts sales]&gt; but was:&lt;Free CRM [#1 cloud software for any business large or small]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at StepDefinitions.MultiDealsSteps.application_Page_Tittle_is_FREE_CRM(MultiDealsSteps.java:64)&#13;&#10;&#9;at ✽.When Application Page Tittle is FREE CRM(src/main/java/Features/Hooks.feature:27)&#13;&#10;"><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Tittle is FREE CRM....................................failed
+Then user enters username and password......................................skipped
+And user clicks on Login Butoon.............................................skipped
+When User navigate to user Profile page.....................................skipped
+Then Go to Deals............................................................skipped
+Then Open New Deal Form.....................................................skipped
+Then user enters deal data..................................................skipped
+Then Save the Deal..........................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<Free CRM [in the cloud software boosts sales]> but was:<Free CRM [#1 cloud software for any business large or small]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinitions.MultiDealsSteps.application_Page_Tittle_is_FREE_CRM(MultiDealsSteps.java:64)
+	at ✽.When Application Page Tittle is FREE CRM(src/main/java/Features/Hooks.feature:27)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,444 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9248832700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.InitializeBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login Free CRM with Valid Creadentials",
+        "description": "",
+        "id": "add-new-deal;login-free-crm-with-valid-creadentials",
+        "after": [
+          {
+            "result": {
+              "duration": 859170800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2793505901,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Application Home Page",
+            "match": {
+              "location": "MultiDealsSteps.user_is_on_Application_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152065600,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003cFree CRM [in the cloud software boosts sales]\u003e but was:\u003cFree CRM [#1 cloud software for any business large or small]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefinitions.MultiDealsSteps.application_Page_Tittle_is_FREE_CRM(MultiDealsSteps.java:64)\r\n\tat ✽.When Application Page Tittle is FREE CRM(src/main/java/Features/Hooks.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Application Page Tittle is FREE CRM",
+            "match": {
+              "location": "MultiDealsSteps.application_Page_Tittle_is_FREE_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters username and password",
+            "match": {
+              "location": "MultiDealsSteps.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "anshulc55",
+                  "Anshul@123"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user clicks on Login Butoon",
+            "match": {
+              "location": "MultiDealsSteps.user_clicks_on_Login_Butoon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User navigate to user Profile page",
+            "match": {
+              "location": "MultiDealsSteps.user_navigate_to_user_Profile_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5611325600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.InitializeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 228299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.beforeSmoke()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login Free CRM with InValid Creadentials",
+        "description": "",
+        "id": "add-new-deal;login-free-crm-with-invalid-creadentials",
+        "after": [
+          {
+            "result": {
+              "duration": 998664500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 101900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.afterSmoke()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1413789000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on Application Home Page",
+            "match": {
+              "location": "MultiDealsSteps.user_is_on_Application_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16176000,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003cFree CRM [in the cloud software boosts sales]\u003e but was:\u003cFree CRM [#1 cloud software for any business large or small]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefinitions.MultiDealsSteps.application_Page_Tittle_is_FREE_CRM(MultiDealsSteps.java:64)\r\n\tat ✽.When Application Page Tittle is FREE CRM(src/main/java/Features/Hooks.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "Application Page Tittle is FREE CRM",
+            "match": {
+              "location": "MultiDealsSteps.application_Page_Tittle_is_FREE_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user enters username and password",
+            "match": {
+              "location": "MultiDealsSteps.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "anshulc55",
+                  "nshul@123"
+                ],
+                "line": 19
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user clicks on Login Butoon",
+            "match": {
+              "location": "MultiDealsSteps.user_clicks_on_Login_Butoon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Application Page Tittle is FREE CRM",
+            "match": {
+              "location": "MultiDealsSteps.application_Page_Tittle_is_FREE_CRM()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5369205500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.InitializeBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Add New Multi Deal",
+        "description": "",
+        "id": "add-new-deal;add-new-multi-deal",
+        "after": [
+          {
+            "result": {
+              "duration": 1006413799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1731004900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on Application Home Page",
+            "match": {
+              "location": "MultiDealsSteps.user_is_on_Application_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 511282200,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003cFree CRM [in the cloud software boosts sales]\u003e but was:\u003cFree CRM [#1 cloud software for any business large or small]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefinitions.MultiDealsSteps.application_Page_Tittle_is_FREE_CRM(MultiDealsSteps.java:64)\r\n\tat ✽.When Application Page Tittle is FREE CRM(src/main/java/Features/Hooks.feature:27)\r\n",
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "Application Page Tittle is FREE CRM",
+            "match": {
+              "location": "MultiDealsSteps.application_Page_Tittle_is_FREE_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user enters username and password",
+            "match": {
+              "location": "MultiDealsSteps.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 29
+              },
+              {
+                "cells": [
+                  "anshulc55",
+                  "Anshul@123"
+                ],
+                "line": 30
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user clicks on Login Butoon",
+            "match": {
+              "location": "MultiDealsSteps.user_clicks_on_Login_Butoon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User navigate to user Profile page",
+            "match": {
+              "location": "MultiDealsSteps.user_navigate_to_user_Profile_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Go to Deals",
+            "match": {
+              "location": "MultiDealsSteps.go_to_Deals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "Open New Deal Form",
+            "match": {
+              "location": "MultiDealsSteps.open_New_Deal_Form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "user enters deal data",
+            "match": {
+              "location": "MultiDealsSteps.user_enters_deal_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Title",
+                  "Amount",
+                  "Probability",
+                  "Commission",
+                  "Description",
+                  "Next Step"
+                ],
+                "line": 37
+              },
+              {
+                "cells": [
+                  "New Deal",
+                  "1000",
+                  "20",
+                  "3",
+                  "This is new Deal",
+                  "To Be Discussed"
+                ],
+                "line": 38
+              },
+              {
+                "cells": [
+                  "CX Deal",
+                  "1000",
+                  "20",
+                  "3",
+                  "This is new Deal",
+                  "To Be Discussed"
+                ],
+                "line": 39
+              },
+              {
+                "cells": [
+                  "Shoes Top",
+                  "1000",
+                  "20",
+                  "3",
+                  "This is new Deal",
+                  "To Be Discussed"
+                ],
+                "line": 40
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "Save the Deal",
+            "match": {
+              "location": "MultiDealsSteps.save_the_Deal()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add New Deal",
+    "description": "",
+    "id": "add-new-deal",
+    "keyword": "Feature",
+    "uri": "src/main/java/Features/Hooks.feature"
+  }
+]
