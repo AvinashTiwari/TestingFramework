@@ -6,7 +6,7 @@ from selenium.webdriver.support.color import Color
 prob_list = [0.3, 0.8]
 
 # instantiate the web brower
-driver = webdriver.Chrome( executable_path='/Users/meigarom/chromedriver' )
+driver = webdriver.Chrome( executable_path='./chromedriver' )
 driver.get( 'http://127.0.0.1:5000/home' )
 
 # iterate over all clicks

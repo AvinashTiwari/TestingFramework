@@ -4,7 +4,7 @@ import numpy as np
 app = Flask( __name__ )
 
 class OmniscientAgent( object ):
-    def __init__( self, pro_list, trials, episodes ):
+    def __init__( self, prob_list, trials, episodes ):
         self.prob_list = prob_list
         self.trials = trials
         self.episodes = episodes
