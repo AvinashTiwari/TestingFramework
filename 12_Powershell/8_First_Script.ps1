@@ -1,0 +1,3 @@
+﻿Get-ChildItem
+CLS
+$PSVersionTable
