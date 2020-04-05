@@ -1,0 +1,1 @@
+﻿Get-Service | Where-Object {$_.Status -eq "running"} | ConvertTo-Html Name , DisplayName, Status | Set-Content E:\TestingFrameWork\12_Powershell\svc.html
