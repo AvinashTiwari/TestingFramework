@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Types>
+  <Type>
+    <Name>FunStuff</Name>
+    <Members>
+      <ScriptProperty>
+        <Name>Num3</Name>
+        <GetScriptBlock>
+            $This.Num1 + $This.Num2
+        </GetScriptBlock>
+      </ScriptProperty>
+      <AliasProperty>
+        <Name>Number1</Name>
+        <ReferencedMemberName>Num1</ReferencedMemberName>
+      </AliasProperty>
+      <ScriptMethod>
+        <Name>AddNumbers</Name>
+        <Script>
+          $This.Num1 = $This.Num1 + $args[0]
+        </Script>
+      </ScriptMethod>
+      <ScriptMethod>
+        <Name>AddMoreNumbers</Name>
+        <Script>
+          ForEach ($A in $args)
+          {
+            $This.Num1 += $A
+          }       
+        </Script>
+      </ScriptMethod>
+    </Members>
+  </Type>
+</Types>
+

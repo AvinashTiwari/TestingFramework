@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Types>
+  <Type>
+    <Name>FunStuff</Name>
+    <Members>
+      <ScriptProperty>
+        <Name>Num3</Name>
+        <GetScriptBlock>
+            $This.Num1 + $This.Num2
+        </GetScriptBlock>
+      </ScriptProperty>
+      <AliasProperty>
+        <Name>Number1</Name>
+        <ReferencedMemberName>Num1</ReferencedMemberName>
+      </AliasProperty>
+    </Members>
+  </Type>
+</Types>
+
