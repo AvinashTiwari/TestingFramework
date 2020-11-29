@@ -24,4 +24,8 @@ public class Entity {
     public void setType(String type) {
         this.type = type;
     }
+
+    private void setprivateVal(int val) {
+        this.val = val;
+    }
 }
