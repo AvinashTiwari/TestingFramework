@@ -4,7 +4,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 class myclass {
-    private myclass(){
+     myclass(){
         System.out.println("Myclass object class!");
     }
 }
