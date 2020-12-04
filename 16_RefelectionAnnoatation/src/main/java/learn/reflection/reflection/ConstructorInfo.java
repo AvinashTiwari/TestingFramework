@@ -1,11 +1,11 @@
-package learn.reflection.field;
+package learn.reflection.reflection;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 public class ConstructorInfo {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
-        Class<?> clss= Class.forName("learn.reflection.field.Entity");
+        Class<?> clss= Class.forName("learn.reflection.reflection.Entity");
         Constructor<?>[] constructors = clss.getConstructors();
         for(Constructor<?> constructor : constructors){
             System.out.println(constructor);

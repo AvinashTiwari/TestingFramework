@@ -1,4 +1,4 @@
-package learn.reflection.field;
+package learn.reflection.reflection;
 
 public class Entity {
     private int val;
