@@ -6,15 +6,15 @@ import learn.reflection.orm.annotation.PrimaryKey;
 public class TransactionHistory {
 
     @PrimaryKey
-    long transactionId;
+    private long transactionId;
     @Column
-    int accountNumber;
+    private int accountNumber;
     @Column
-    String name;
+    private String name;
     @Column
-    String transactionType;
+    private String transactionType;
     @Column
-    double amount;
+    private double amount;
 
     public TransactionHistory(  int accountNumber, String name, String transactionType, double amount) {
         this.transactionId = transactionId;
