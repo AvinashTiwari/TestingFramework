@@ -69,5 +69,9 @@ public class Hibernate<T> {
         }
         stmt.executeUpdate();
     }
+
+    public T read(Class<T> transactionHistoryClass, long l) {
+        return null;
+    }
 }
 

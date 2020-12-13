@@ -14,5 +14,7 @@ public class Applciation {
         hibernate.write(t2);
         hibernate.write(t3);
         hibernate.write(t4);
+
+        TransactionHistory obj = hibernate.read(TransactionHistory.class,1L);
     }
 }
