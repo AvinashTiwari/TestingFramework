@@ -6,17 +6,17 @@ import learn.reflection.orm.annotation.PrimaryKey;
 public class TransactionHistory {
 
     @PrimaryKey
-    private long transactionId;
+    public long transactionId;
     @Column
-    private int accountNumber;
+    public int accountNumber;
     @Column
-    private String name;
+    public String name;
     @Column
-    private String transactionType;
+    public String transactionType;
     @Column
-    private double amount;
+    public int amount;
 
-    public TransactionHistory(  int accountNumber, String name, String transactionType, double amount) {
+    public TransactionHistory(  int accountNumber, String name, String transactionType, int amount) {
         this.transactionId = transactionId;
         this.accountNumber = accountNumber;
         this.name = name;
@@ -63,7 +63,7 @@ public class TransactionHistory {
         return amount;
     }
 
-    public void setAmount(double amount) {
+    public void setAmount(int amount) {
         this.amount = amount;
     }
 

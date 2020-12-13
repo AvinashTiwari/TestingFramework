@@ -23,7 +23,7 @@ public class Hibernate<T> {
     }
 
     private Hibernate() throws SQLException {
-        this.conn = DriverManager.getConnection("");
+        this.conn = DriverManager.getConnection("jdbc:h2:~/test", "sa", "");
     }
 
     public void write(T t) throws Exception {
@@ -34,12 +34,12 @@ public class Hibernate<T> {
         StringJoiner joiner = new StringJoiner(",");
         for(Field field : decalredFields ){
             if(field.isAnnotationPresent(PrimaryKey.class)){
-                pkey =field;
-                System.out.println("The primary Key Is " + field.getName() + " Value :" + field.get(t));
+                pkey = field;
+               // System.out.println("The primary Key Is " + field.getName() + " Value :" + field.get(t));
             }else if(field.isAnnotationPresent(Column.class)){
                joiner.add(field.getName());
                 columns.add(field);
-                System.out.println("The Column Key Is " + field.getName()  + " Value :" + field.get(t));
+                //System.out.println("The Column Key Is " + field.getName()  + " Value :" + field.get(t));
             }
         }
 
@@ -48,7 +48,8 @@ public class Hibernate<T> {
                 .mapToObj(e->"?")
                 .collect(Collectors.joining(","));
 
-        String sql = "inert into " + clss.getSimpleName() + " (" + pkey.getName() + joiner.toString()+ ") values ( " + qMarks + ")" ;
+        String sql = "insert into " + clss.getSimpleName() + " ( " + pkey.getName() + " , " + joiner.toString()+ ") values ( ?,?,?,?,?)" ;
+        System.out.println("sql strin " + sql);
         PreparedStatement stmt = conn.prepareStatement(sql);
 
         if(pkey.getType() == long.class){
@@ -59,8 +60,10 @@ public class Hibernate<T> {
             field.setAccessible(true);
             if(field.getType() == int.class){
                 stmt.setInt(index++,(int)field.get(t));
+                System.out.println("in int" + (int)field.get(t));
             } else if(field.getType() == String.class){
                 stmt.setString(index++,(String) field.get(t));
+                System.out.println("in String " + (String)field.get(t));
 
             }
         }
