@@ -10,11 +10,12 @@ public class Applciation {
         TransactionHistory t4 = new TransactionHistory(1534, "Avinash3", "Debit",10);
 
         Hibernate<TransactionHistory> hibernate = Hibernate.getConnection();
-        hibernate.write(t1);
-        hibernate.write(t2);
-        hibernate.write(t3);
-        hibernate.write(t4);
+       // hibernate.write(t1);
+        //hibernate.write(t2);
+       // hibernate.write(t3);
+        //hibernate.write(t4);
 
         TransactionHistory obj = hibernate.read(TransactionHistory.class,1L);
+        System.out.println(obj);
     }
 }

@@ -4,10 +4,8 @@ import learn.reflection.orm.annotation.Column;
 import learn.reflection.orm.annotation.PrimaryKey;
 
 import java.lang.reflect.Field;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.lang.reflect.InvocationTargetException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.StringJoiner;
 import java.util.concurrent.atomic.AtomicLong;
@@ -70,8 +68,35 @@ public class Hibernate<T> {
         stmt.executeUpdate();
     }
 
-    public T read(Class<T> transactionHistoryClass, long l) {
-        return null;
+    public T read(Class<T> clss, long l) throws SQLException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+        Field[] decalredFields = clss.getDeclaredFields();
+        Field primaryField = null;
+        for(Field field : decalredFields ){
+            if(field.isAnnotationPresent(PrimaryKey.class)){
+                primaryField = field;
+                break;
+                // System.out.println("The primary Key Is " + field.getName() + " Value :" + field.get(t));
+            }
+        }
+        String sql = "select * from " + clss.getSimpleName() + " where " + primaryField.getName() + "  = " + l;
+        PreparedStatement stmt = conn.prepareStatement(sql);
+        ResultSet rs = stmt.executeQuery();
+        rs.next();
+        T t = clss.getConstructor().newInstance();
+        long transationid = rs.getInt(primaryField.getName());
+        primaryField.setAccessible(true);
+        primaryField.set(t,transationid);
+        for(Field field : decalredFields ){
+            if(field.isAnnotationPresent(Column.class)){
+                field.setAccessible(true);
+                if(field.getType() == int.class){
+                    field.set(t,rs.getInt(field.getName()));
+                }else if(field.getType() == String.class){
+                    field.set(t,rs.getString(field.getName()));
+                }
+            }
+        }
+        return t;
     }
 }
 
