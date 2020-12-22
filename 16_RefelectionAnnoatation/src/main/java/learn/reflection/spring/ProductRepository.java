@@ -1,7 +1,9 @@
 package learn.reflection.spring;
 
-import java.util.List;
+import learn.reflection.spring.annotation.Component;
 
+import java.util.List;
+@Component
 public class ProductRepository {
     public List<Product> getPrice(List<Product> items) {
         for(Product product: items){
