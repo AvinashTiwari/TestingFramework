@@ -1,17 +1,17 @@
-package Generic;
+package Generic.simplegeneric;
 
-public class StoreGeneric<T> {
-    T value;
+public class Store {
+    Object value;
 
-    public StoreGeneric(T object){
+    public Store(Object object){
         this.value = value;
     }
 
-    public T getValue() {
+    public Object getValue() {
         return value;
     }
 
-    public void setValue(T value) {
+    public void setValue(Object value) {
         this.value = value;
     }
 

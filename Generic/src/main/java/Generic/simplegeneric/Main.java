@@ -1,4 +1,4 @@
-package Generic;
+package Generic.simplegeneric;
 
 public class Main {
     public static void main(String[] args) {
