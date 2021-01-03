@@ -5,7 +5,7 @@ public class Store {
         System.out.println("Opening Store..");
     }
 
-    public <T> void Print(T num){
+    public <T extends Number> void Print(T num){
         System.out.println(num);
     }
 }
