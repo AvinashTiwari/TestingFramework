@@ -1,4 +1,4 @@
-package collection;
+package collection.arraysample;
 
 public class User {
     String name;
