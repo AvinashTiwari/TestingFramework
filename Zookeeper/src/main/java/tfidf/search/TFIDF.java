@@ -4,6 +4,7 @@ import tfidf.model.DocumentData;
 
 import java.util.List;
 import java.util.Map;
+import java.util.function.DoubleConsumer;
 
 public class TFIDF {
     public  static double calculateTermFrequency(List<String> words, String term){
@@ -38,5 +39,10 @@ public class TFIDF {
       }
 
       return  nt == 0 ? 0: Math.log10(documentResults.size() /nt);
+    }
+
+    public static  Map<Double, List<String>> getDocumentSortedByScore(List<String> term,
+                                                                      Map<String, DocumentData> documentResult){
+
     }
 }
