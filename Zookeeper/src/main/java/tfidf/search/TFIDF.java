@@ -2,8 +2,7 @@ package tfidf.search;
 
 import tfidf.model.DocumentData;
 
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.DoubleConsumer;
 
 public class TFIDF {
@@ -41,8 +40,45 @@ public class TFIDF {
       return  nt == 0 ? 0: Math.log10(documentResults.size() /nt);
     }
 
-    public static  Map<Double, List<String>> getDocumentSortedByScore(List<String> term,
-                                                                      Map<String, DocumentData> documentResult){
+    private static  Map<String, Double>getInverseDocumentFrequencyMap(List<String> terms , Map<String, DocumentData> documentResult ){
+        Map<String, Double> termtoIDF = new HashMap<>();
+        for(String term: terms){
+            double idf = getInverseDocumentFrequency(term, documentResult);
+            termtoIDF.put(term, idf);
+        }
+        return termtoIDF;
+    }
 
+    public static  Map<Double, List<String>> getDocumentSortedByScore(List<String> terms,
+                                                                      Map<String, DocumentData> documentResult){
+        TreeMap<Double, List<String>> scoreToDocument = new TreeMap<>();
+        Map<String, Double> termToInverseDocument = getInverseDocumentFrequencyMap(terms, documentResult);
+        for(String document: documentResult.keySet()){
+            DocumentData documentData= documentResult.get(document);
+            double score = calculateDocumentScore(terms, documentData,termToInverseDocument);
+            addDocumentScoreToTreeMap(scoreToDocument,score, document);
+        }
+
+        return  scoreToDocument.descendingMap();
+    }
+
+    private static void addDocumentScoreToTreeMap(TreeMap<Double, List<String>> scoreToDocument,
+                                                  double score, String document) {
+         List<String> documentWithCurrentScore  = scoreToDocument.get(score);
+         if(documentWithCurrentScore !=null){
+             documentWithCurrentScore = new ArrayList<>();
+         }
+        documentWithCurrentScore.add(document);
+         scoreToDocument.put(score, documentWithCurrentScore);
+    }
+
+    private static double calculateDocumentScore(List<String> terms, DocumentData documentData, Map<String, Double> termToInverseDocument) {
+       double score =0;
+       for(String term: terms){
+           double termFrequency = documentData.getFrequency(term);
+           double inverseTermFrequency = termToInverseDocument.get(term);
+           score+= termFrequency * inverseTermFrequency;
+       }
+        return score;
     }
 }
