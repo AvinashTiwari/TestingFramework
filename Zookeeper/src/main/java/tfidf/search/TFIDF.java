@@ -71,7 +71,6 @@ public class TFIDF {
         documentWithCurrentScore.add(document);
          scoreToDocument.put(score, documentWithCurrentScore);
     }
-
     private static double calculateDocumentScore(List<String> terms, DocumentData documentData, Map<String, Double> termToInverseDocument) {
        double score =0;
        for(String term: terms){
@@ -80,5 +79,17 @@ public class TFIDF {
            score+= termFrequency * inverseTermFrequency;
        }
         return score;
+    }
+
+    public static List<String> getWordsFromLine(String line){
+      return Arrays.asList(line.split("(\\.)+|(,)+|( )+|(-)+|(\\?)+|(!)+|(;)+|(:)+|(/d)+|(\n)"));
+    }
+    public static List<String> getWordsFromLines(List<String> lines){
+        List<String> words = new ArrayList<>();
+        for(String line:lines){
+            words.addAll(getWordsFromLine(line));
+        }
+
+        return words;
     }
 }
